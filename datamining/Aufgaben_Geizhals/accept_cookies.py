@@ -42,20 +42,25 @@ def get_products_from_plp(base_url, num_pages):
             container_div = soup.find(
                 "div", class_="listview card listview--filter-results"
             )
-            product_list = container_div.find_all("article", class_="listview__item")
+            product_list = container_div.find_all(
+                "article", class_="listview__item")
 
             for product in product_list:
                 product_name = product.find("h3", class_="listview__name")
                 product_price = product.find("div", class_="listview__price")
-                product_stars = product.find("div", class_="listview__content-left")
-                product_offers = product.find("div", class_="listview__offercount")
+                product_stars = product.find(
+                    "div", class_="listview__content-left")
+                product_offers = product.find(
+                    "div", class_="listview__offercount")
                 product_url_div = product.find("h3", class_="listview__name")
                 product_url = product_url_div.find("a")
 
                 title = product_name.find("a").get_text(strip=True)
-                price = product_price.find("span", class_="price").get_text(strip=True)
+                price = product_price.find(
+                    "span", class_="price").get_text(strip=True)
                 offers = product_offers.find("a").get_text(strip=True)
-                stars_element = product_stars.find("span", {"aria-hidden": "true"})
+                stars_element = product_stars.find(
+                    "span", {"aria-hidden": "true"})
                 url = product_url.get("href")
 
                 if stars_element:
@@ -82,4 +87,4 @@ products = get_products_from_plp(base_url, num_pages)
 
 columns = ["title", "price", "stars", "offers", "url"]
 dataframe = pd.DataFrame(products, columns=columns)
-dataframe.to_csv("Aufgaben_Geizhals/fernseher.csv", index=False)
+dataframe.to_csv("datamining/Aufgaben_Geizhals/fernseher.csv", index=False)
