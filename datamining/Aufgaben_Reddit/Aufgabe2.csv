@@ -1,0 +1,960 @@
+subreddit_id,s_date,comment_id,c_text,c_upvotes,c_author,c_date
+a3oicn,2018-12-06 14:44:57,eb7rimk,"We should make this a sticky, we could reduce 50% of the posts here.",1420,Linkk_93,2018-12-06 14:54:32
+a3oicn,2018-12-06 14:44:57,eb8eqmx,"I don't know if the CTF path will work for everyone. 
+
+I believe some individuals would be better off learning the fundamentals to networking, learning how to work in a Linux environment, and then slowly progressing to a CTF environment.
+
+Otherwise you may end up with someone who can ""do the thing"" but not understand ""the thing"".",292,Nau71lus,2018-12-06 19:18:15
+a3oicn,2018-12-06 14:44:57,eb812cp,"Been subbed here for about 2 months, this is the first post I actually found worthwhile, thanks.",279,PlayPoker2013,2018-12-06 16:44:46
+a3oicn,2018-12-06 14:44:57,efu6ba6,"There is a MASSIVE flaw in this suggestion. CTF's are amazing to put what you have learned to the test... but CTF's are not going to teach you core fundamentals. Every hacker should aspire to know not only the big picture but all the individual pieces that make up the puzzle.
+No CTF is going to help you memorize the 4 layers of the TCP/IP stack and the 7 layers of the OSI model. Not that knowing those two things are essential but a basic understanding of Networking (at least) ABSOLUTELY is.
+You could spend the next year playing with CTF's everyday and only learn a quarter of what you could learn in a single CISCO networking course. I just feel that there is no substitution for really sitting down and studying the craft. Listen to a Defcon talk while you take a free Python class on www.CodeAcademy.com, spend 30 minutes a day on a free class with www.Cybrary.com and another 30 minutes reading one of Kevin Mitnick's book to help immerse yourself into the world and mindset of a hacker. 
+I can only speak for myself but I had to break some bad, lazy habits. CyberSecurity saved my life and made me a better person. I feel like a part of that was making myself sit down and crack open a book for at least an hour a day, it helped create discipline. I got a hold of ""The Basics of Hacking and Penetration Testing - by Pat Engebretson on Syngress Press."" By the time I finished it, I COULD NOT WAIT to restart it because I was getting apparent, noticable results.
+CTF's are totally kickass, I endorse them fully (who the hell wouldn't?!) but if learning is your goal I feel there's faster ways to make gains. When it comes to practice though, there's nothing on earth better than a CTF. 
+",133,LeStankeboog,2019-02-06 01:21:17
+a3oicn,2018-12-06 14:44:57,eb7vubr,Bookmarking this,76,,2018-12-06 15:46:09
+a3oicn,2018-12-06 14:44:57,eb7y6p5,www.hackthebox.eu is good too.,44,coremedic,2018-12-06 16:12:50
+a3oicn,2018-12-06 14:44:57,eb8de8d,I think that you missed the third way which may be linked to ctf path but they can be independent. Read read and read books and articles about how things work in network and computer world. If you are doing ctf you will need to read and learn how things work but you still can read without ctf.,32,muniategui,2018-12-06 19:03:05
+a3oicn,2018-12-06 14:44:57,eb8aryv,I study engineering (optics and lasers) and information security/hacking has always fascinated me. Many thanks for this.,13,Leemour,2018-12-06 18:33:52
+a3oicn,2018-12-06 14:44:57,hhajg6a,"I’m really interested in becoming an ethical hacker. I’m getting a late start at the age of 30 and I am not very familiar with any of it, but I am pretty good with electronics and software. Im gonna humble brag a little but I think I have a good mind for it. I’m a critical thinker/can think outside the box and I’m a good problem solver maybe even a problem solving addict lol. The idea of doing it for a living isn’t just a dream it’s something I am willing to give my all. Thank you for this information. Does anyone have any recommendations for a starter machine and OS that would be best as I learn and progress?",10,potluckparadox,2021-10-19 22:45:34
+a3oicn,2018-12-06 14:44:57,jyy7obg,"another fact to add would be\~  you need to be committed towards it and have patience. You won't become a hacker over night. You will have to read lots of books related to hacking. To get started you need to have the following requirements.
+
+ Programming Languages:
+
+Learn C, Assembly, C++ for system hacking.
+
+Learn any object oriented programming - C++ or Java or C# whichever you are comfortable with
+
+Learn PHP, Python etc for website related hacking
+
+Master SQL in order to perform SQL Injection on website and retrieving information or gaining unauthorized access to the database
+
+2. Computer Networks
+
+Its a heart of hacking. First learn basics of network. Learn TCP/IP suite and learn how things actually work on the network
+
+3. Linux
+
+Get used to linux environment. In order to start with linux go for Ubuntu since its debian based user friendly OS. Learn commands and get used to commands to ease your work while working on Kali Linux(Linux distro for penetration Testers)
+
+\-----
+
+After all that you should get started with the practicals. To get started with practicals you should have the following things.
+
+1. Virtual Box or VMWare Workstation:
+
+Used to create virtual environment for practicing hacking and perform penetration testing. Install kali linux, one or more windows OSes and metasploitable linux(intentionally vulnerable linux) in your Virtual box or VMWare workstation.
+
+You can also install Kali linux on your hard disk and create virtual windows OSes and linux. Choose whichever you are comfortable with.
+
+2. Kali Linux:
+
+Its a debian based linux distro meant for penetration testers. There are n number of tools already built in to distro viz Nmap, Wireshark, Burpsuite, OWASP ZAP, Metasploit to name a few. Learn how to use the tools by either google searching, going through hack related sites and youtube videos. Now use Kali linux to perform penetration testing on windows or metasploitable linux.
+
+It probably goes without saying that to become a hacker you need some basic computer skills. These skills go beyond the ability to create a Word document or cruise the Internet. You need to be able to use the command line in Windows, edit the registry, and set up your networking parameters.Networking SkillsYou need to understand the basics of networking, such as the following.DHCPSubnettingIPv4IPv6DNSRouters and switches VLANsOSI modelMAC addressing ARPAs hackers are often exploiting these technologies, the better you understand how they work, the more successful you will beLinux SkillsIt is extremely critical to develop Linux skills to become a hacker. Nearly all the tools a hacker uses is developed for Linux and Linux gives us capabilities that we don't have using Windows .Security Concepts & Technologies A good hacker understands security concepts and technologies. The only way to overcome the roadblocks established by the security admins is to be familiar with them. The hacker must understand such things as PKI (public key infrastructure), SSL (secure sockets layer), IDS (intrusion detection system), firewalls, etc .Wireless Technologies  In order to be able to hack wireless, you must first understand how it works. Things like the encryption algorithms (WEP, WPA, WPA2), the four-way handshake, and WPS. In addition, understanding such as things as the protocol for connection and authentication and the legal constraints on wireless technologies. Scripting Without scripting skills, the hacker will be relegated to using other hackers' tools. This limits your effectiveness. Every day a new tool is in existence loses effectiveness as security admins come up with defenses. To develop your own unique tools, you will need to become proficient at least in one of the scripting languages including the BASH shell. These should include one of Perl, Python, or Ruby. Database Skills If you want to be able to proficiently hack databases, you will need to understand databases and how they work. This includes the SQL language .Web Applications Web applications are probably the most fertile ground for hackers in recent years. The more you understand about how web applications work and the databases behind them, the more successful you will be.  In addition, you will likely need to build your own website for phishing and other nefarious purposes .Forensics  To become good hacker, you must not be caught! You can't become a pro hacker sitting in a prison cell for 5 years. The more you know about digital forensics, the better you can become at avoiding and evading detection .The beginner hacker must understand TCP/IP basics, but to rise to the intermediate level, you must understand in intimate details the TCP/IP protocol stack and fields. These include how each of the fields (flags, window, df, tos, seq, ack, etc.) in both the TCP and IP packet can be manipulated and used against the victim system to enable MitM attacks, among other things.  Reverse Engineering Reverse engineering enables you to open a piece of malware and re-build it with additional features and capabilities. Just like in software engineering, no one builds a new application from scratch. Nearly every new exploit or malware uses components from other existing malware. Think Creatively There is ALWAYS a way to hack a system and many ways to accomplish it. A good hacker can think creatively of multiple approaches to the same hack.  Problem-Solving Skills A hacker is always coming up against seemingly unsolvable problems. This requires that the hacker be accustomed to thinking analytically and solving problems. This often demands that the hacker diagnose accurately what is wrong and then break the problem down into separate components. This is one of those abilities that comes with many hours of practice. Persistence A hacker must be persistent. If you fail at first, try again. If that fails, come up with a new approach and try again. It is only with a persistence that you will be able to hack the most secured systems.
+
+All The Best!",11,AdventurousDegree508,2023-09-03 14:16:59
+a3oicn,2018-12-06 14:44:57,edd0t6m,"It's time to finally draw a line between hackers and cybersecurity researchers. I'm tired of walking into hacking rooms only to find a bunch of neckbeards talking about ""being ethical.""
+No offense to anyone, but when can we finally say that cybersecurity is not hacking and a rectangle is not a square? Clarity please!",9,deadface008,2019-01-06 05:29:32
+a3oicn,2018-12-06 14:44:57,eb86py4,"Thank you so much for this! 
+
+I am really curious about learning this stuff, but I'm really not sure what I would use it for.
+
+What are examples of real world issues that can be solved with this stuff?",6,emidude,2018-12-06 17:47:48
+a3oicn,2018-12-06 14:44:57,il6lt7u,Four years later and this is still a gold mine.,8,Boolzay,2022-08-21 12:03:23
+a3oicn,2018-12-06 14:44:57,eb8aerg,So... which path are you personally recommending?,6,BlackDeath3,2018-12-06 18:29:22
+a3oicn,2018-12-06 14:44:57,egf1txb,[hackthebox.eu](https://hackthebox.eu) has a bunch of hacking exercise things. Pretty much CTF hacking. You have to hack to get an account :D.,6,-jxcksxn-,2019-02-13 22:59:55
+a3oicn,2018-12-06 14:44:57,egg5bck,Want to start hacking. Lesson 101 is social engineering.,5,GabrielVlogs,2019-02-14 09:58:49
+a3oicn,2018-12-06 14:44:57,epdhlsq,this post changed my understanding of 'hacking',5,RottenCase,2019-05-29 21:46:31
+a3oicn,2018-12-06 14:44:57,eb7x49y,Thank you.,6,cult_of_da-bits,2018-12-06 16:00:59
+a3oicn,2018-12-06 14:44:57,eb8vsr4,"Thank you so much, this is exactly the kind of post I wanted to find in r/hacking as someone who has zero experience with hacking and wants to get into it",6,,2018-12-06 22:21:01
+a3oicn,2018-12-06 14:44:57,eb9hral,https://pwnadventure.com,4,startnowstop,2018-12-07 02:58:06
+a3oicn,2018-12-06 14:44:57,jyy618i,"Rule 101. Knowledge should be free this is what hackers believe. Now i am not saying that you shouldn't buy a course I am just saying many Hackers are self-taught ,In order to become a good hacker, ethical or no, you need to know programming, operating systems and networking. Start with one of those three depending on what you want to hack. Let’s say for example you want to hack websites. The first thing you need to do is learn to code websites if yoy want to be any good. Don’t even think about hacking yet. Start with a full-stack PHP framework. Learn HTML, CSS, JavaScript, PHP, and SQL. Learn about the OSI model, especially the application layer protocols too. But build websites with client-server applications or network-based applications. Do that for six months at least and then (and only then) will you be able to be able to hack websites. Otherwise you won’t get very far. If you don’t like learning to code for fun and if you don’t like learning how stuff works, you cannot ever be any kind of hacker. In this case purchase a Udemy course on full-stack web development and start learning.
+
+Another example is if you want to hack wireless networks, VoIP, wireless devices, Bluetooth, etc. Research wireless networking. Look up on YouTube computer networking and see if you like what you are learning about them maybe buy books on computer networking which exist. Maybe you could buy The TCP/IP Guide or maybe a book on CISCO networking. Maybe get a Udemy course on Network+. Work on it for a long time but learn how networks work, especially networking protocols but learn everything you can about how they work not just protocols. Once you get basic computer networking skill only then you will be able to learn to attack 802.11, Ethernet, Bluetooth, etc. networks. If you want to exploit operating systems then you need to learn how operating systems work. You can get manuals on just about any operating system and yes OS X and MacOS are just as easy to hack as Windows or Linux and Apple knows it and Apple even has a bug bounty program (which I will talk about soon for you). Once you know how operating systems work and have sufficient experience working with them, only then will you be able to learn to exploit them. After you do that, and only after you do that, go to Udemy hacking courses, get hacking books, go for online tutorials on hacking etc.  To be extremely good it’s always ideal to have a specialty, but still be well-rounded. What I mean is there’s no way to know everything about everything. You need to have an area of hacking you like most. Different areas include: Web hacking - exploiting flaws in web application code to get usernames and passwords, give a thousand upvotes on a website when you are only are allowed to give one, defacing websites, and a whole lot more  Mobile app hacking exploiting flaws in mobile application code; similar to web hacking but where you plug your smartphone into your computer and actually attack the applications on your phone from the computer, like hacking Snapchat or WhatsApp messages for example Wireless hacking - finding a way to break into a car and control via Bluetooth as opposed to hot wiring, hacking a router for a WiFi password maybe even hacking an iPhone or desktop that is on the same network as you or performing a man-in-the-middle attack to get the web history of someone on the same network as you Internet of Things hacking - combo of wireless hacking and hardware hacking that allows you to hack a smart fridge, thermostat, Bluetooth connection of a car, someone’s smartwatch, and loads of other devices Reverse engineering - breaking software apart to see the assembly level code, not the original source code, then exploiting that assembly code in order to get something to happen that the original programmer didn’t intend to happen; this one is useful combined with web hacking, mobile app hacking, or even operating system and server exploitation Operating system and server exploitation involves exploiting flaws in the operating system of either a normal client computer or even a server in order to get access to that person’s files, documents, etc. stored on their hard drive Hardware hacking - taking hardware apart and modifying it, putting it back together a different way, and reusing it for something it wasn’t intended to do; can be combined with wireless hacking to help gain access to companies’ networks or even their private devices  Hacking using a programming language to make your own tools - this one you can start building your own tools when gain some skill but is more to help you in the areas of hacking you study There are other areas of having too but those are some of the more common ones. Once you know how stuff works, then get Kali Linux or whatever Linux OS you want and learn. But have one area of interest. Be especially well practiced in one or two areas, but know the basics of several .But keep repeating the process of learning how stuff works, then learning to hack that stuff. When you are good at several but have two or three chosen areas you are especially good at, then you can get a job as an ethical hacker and be good at it.  
+
+The quintessential areas of hacking are: WiFi hacking, network hacking, web hacking, reverse engineering, server exploitation, exploit development, and programming (most important one), social engineering, etc, Some additional areas you can learn are mobile application hacking, iOS hacking, Android OS hacking, Open source intelligence, different sub areas of reverse engineering (browser hacking, operating system reverse engineering, video game hacking, etc), database hacking (because you can go further than just what’s required for web hacking in terms of being an expert at database hacking, advanced VoIP hacking, hardware hacking, CISCO device hacking, Juniper device hacking, cryptography, and many many more….   ""Note"" Stay updated and continuously learn: The field of cybersecurity is constantly evolving, so it's crucial to stay updated with the latest trends, vulnerabilities, and attack techniques.",6,AdventurousDegree508,2023-09-03 14:06:41
+a3oicn,2018-12-06 14:44:57,eb9948b,"Some other good resources include https://365.csaw.io and https://ctf101.org (companion site). They're managed by NYU and are also great resources for beginners. 
+
+As far as YouTubers go [liveoverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) is great. 
+
+Open To All CTF is a great community of experienced and aspiring infosec enthusiasts. 
+
+Sorry for formatting and abruptness, I'm on mobile.",4,Auranykh,2018-12-07 00:55:12
+a3oicn,2018-12-06 14:44:57,eb9u8vx,Just wondering why Hackthebox didn't make the cut? ,4,EMP19E,2018-12-07 06:11:01
+a3oicn,2018-12-06 14:44:57,ek8607x,I am a high-school graduate and I am going to start an computer science and engineering course at the university. I am only familiar with basic python. I want to explore ethical hacking as a career. So my question is that what should I focus on at the university in order to do so? Any help is appreciated,4,dankdoge9560,2019-04-06 03:29:10
+a3oicn,2018-12-06 14:44:57,eb7xgfg,Thanks for the advices mate,3,junioroldboy_,2018-12-06 16:04:44
+a3oicn,2018-12-06 14:44:57,ebl4lbq,Really good stuff. *gives gold*,3,,2018-12-11 20:45:40
+a3oicn,2018-12-06 14:44:57,ecj49eo,"Thank you for putting this together. As someone who started out with no background in Linux, I found the No Starch Press book, The Linux Command Line and  http://overthewire.org/wargames to be very useful and it also encouraged you to look up the commands and what they means instead of being spoon-fed the information. Learning ""how to google"" and research topics instills strong analytical skills needed for ""hacking"" & problem solving imho. ",3,noranekoramen,2018-12-25 17:50:34
+a3oicn,2018-12-06 14:44:57,i9373b6,"
+01010000 01101100 01110011 00100000 01101000 01100101 01101100 01110000 00100000 01101101 01111001 00100000 01110111 01101001 01100110 01100101 01110011 00100000 01100110 01100001 01100011 01100101 01100010 01101111 01101111 01101011 00100000 01100111 01101111 01110100 00100000 01101000 01100001 01100011 01101011 01100101 01100100 00100000 01100001 01101110 01100100 00100000 01110100 01101000 01100101 01111001 00100000 01101000 01100001 01110110 01100101 00100000 01100001 01101100 01101100 00100000 01101000 01100101 01110010 00100000 01100110 01100001 01101101 01101001 01101100 01111001 00100000 01110000 01101001 01100011 01110011 00101110 00100000 01010111 01101001 01101100 01101100 00100000 01110000 01100001 01111001 00100000 01110100 01101111 00100000 01110010 01100101 01100011 01101111 01110110 01100101 01110010",3,_HIGH_OCTANE,2022-05-18 16:09:46
+a3oicn,2018-12-06 14:44:57,imuj8lg,"I would absolutely love to know if there is a way to be able to fuck with scammer accounts on e-commerce sites like vinted . Would it be very hard to create some kind of software where it can recognise user name types by the way it’s spelt because on the site they all use random letters  for user babes e.g. ‘jkhjkhh’ , ‘1hhjjgg’ and so on
+Id love to create something that can pick those out in some kind of algorithm and hit one button to report all their accounts.
+Im have so much fun screwing with them but it’s long to do it manually !
+Im a complete noob with hacks etc but not a noob a fucking about with these scum bags.",3,Nixster_dolce_kid,2022-09-02 21:12:44
+a3oicn,2018-12-06 14:44:57,ip7t4bj,Can someone please help me track a phone number location of a scammer.,3,vickeygaming,2022-09-20 17:01:55
+a3oicn,2018-12-06 14:44:57,ipybggc,[removed],3,,2022-09-26 10:09:22
+a3oicn,2018-12-06 14:44:57,ix5d3fn,"Love this resource. A minor flaw: you tried to frame the kali linux script kiddies as elitist but came off a bit elitist yourself as you hinted at the superiority of the CTF path for learning to hack. Employers don't care how you learned to hack, just that you can do the job. Regardless, I will be jumping in to some of these CTF links to start my journey.",3,mentalflux,2022-11-20 21:40:06
+a3oicn,2018-12-06 14:44:57,k6ip542,Is this sticky updated regularly? I see it is 5 years old and just wanna make sure anything that is here is still relevant for me before I post an oversaturated question,3,hotelshowers,2023-10-26 10:22:30
+a3oicn,2018-12-06 14:44:57,eb9hlgl,"and here i am learning stuff, thanks",2,,2018-12-07 02:55:48
+a3oicn,2018-12-06 14:44:57,eb9itlv,"If someone wants to learn basics of pen testing, have not decided yet to dive fully into infromation security,isn't using tools from Kali a better path for him. This will take lesser time and mental trauma too.",2,,2018-12-07 03:13:06
+a3oicn,2018-12-06 14:44:57,ebcpx2n,"So I am doing all the under and overthewire wargames. I understand a lot of it without walk-throughs, but some stuff I just don't get, even with explanations there.
+
+I am afraid that competitive CTF games are jjst too difficult for me, weighing down the team.
+
+Is the entrylevel suitable for beginners like me? ",2,_30d_,2018-12-08 13:01:23
+a3oicn,2018-12-06 14:44:57,ebiun8i,"No one mentioned [https://lab.pentestit.ru/](https://lab.pentestit.ru/), or is it not consider CTF in the context of this post",2,,2018-12-10 22:01:12
+a3oicn,2018-12-06 14:44:57,ef28p09,"No love for hackthebox.eu?
+
+Very very active community and fresh material constantly. Option for paid subscription but you don't need to.
+
+It's not tool driven as someone else said, most boxes that use known exploits require you to understand it completely and usually tweak the code.
+
+It's really the best site I've visited, and I've been through a lot of the more well known sites, otw and hack this site etc.
+
+But I never see it mentioned in threads like this, why is that?",2,,2019-01-27 01:40:10
+a3oicn,2018-12-06 14:44:57,egzqjje,"Don't know if this is the best place to ask but what do you guys think about Pluralsight Ethical Hacking Course? Since I'm in College the courses are free, at least I think, so far so good, I might try it but I'm slightly busy with the C++ and Python( Which I already had a class about on college, just trying to further the knowledge).",2,Tjccs,2019-02-21 23:50:18
+a3oicn,2018-12-06 14:44:57,eia93zx,Do you guys know where can I learn the most fundamental things about networking? Any book suggetion or website?  ,2,lzy917,2019-03-11 16:14:09
+a3oicn,2018-12-06 14:44:57,ejyrpak,`<kbd>`Download notepad++ and act cool`</kbd>`,2,sindavmi,2019-04-02 18:31:07
+a3oicn,2018-12-06 14:44:57,eptfxhs,"I would rather say that one is supposed to take the combined methodology to learn hacking, agreed I am a n00b and my opinion might not matter to many but coming across on many challenges in natas, bandit and picoCTF I realised that knowing working of tools is great but not knowing tools is bery bad. Its like knowing how to shoot bullets and how the guns work but not possesing guns or not having gun will likely get you killed in combat. (Bad example but you get the point right?) IMHO the true approach should be dealing with both, if possible simultaneously. Infact I think that liveoverflow channel owner's most videos discuss tools along with methodology rather than seggregating them. To prove my point, On one of the bandit overthewire challenges, I ended up going the hard way digging up the file codes using hex editor to find the type of file which could have been easily done via file utility. So, to conclude: A mix method of both must be used, wherein people learn to use tools,kali and stuffs along with learning how they work on core level and should be approached in a rather gradual way.",2,Sugoypotato,2019-06-02 15:29:24
+a3oicn,2018-12-06 14:44:57,hi5tzr0,"Im logged in to unknown account on instgram and I can't log out and im sure this is not my account, it is somebody else",2,armored103,2021-10-26 20:40:11
+a3oicn,2018-12-06 14:44:57,hnvhajj,whats up with the moderators in here?,2,stepdad666,2021-12-09 17:19:01
+a3oicn,2018-12-06 14:44:57,hrchrrh,Is hacking a page hard to do? I feel like everyone’s gotten one or their social media’s hacked but ehh🤷‍♀️,2,No-shetooprettysumer,2022-01-05 12:38:12
+a3oicn,2018-12-06 14:44:57,ht31gjk,"Is it possible to learn fast to hack into email to read them? Im a total beginner, can't code... But I could give 7 to 10h a week to learn.",2,DynoDwam,2022-01-17 20:37:15
+a3oicn,2018-12-06 14:44:57,i275vzn,"I didn’t read through all the comments but for beginners, https://overthewire.org/wargames/ is useful imo.",2,Ev3rnub,2022-03-26 14:59:11
+a3oicn,2018-12-06 14:44:57,i4c0lor,"Unlike most of you inferior beings, i am un hackable! Compared to you, mere mortals, my password is impossible to guess!",2,Password_is_Cheese69,2022-04-11 19:51:02
+a3oicn,2018-12-06 14:44:57,ia3vpg3,"I realize I'm rather late but thank you so much for this post! Very well put!
+
+I started dabbling with cybersecurity a few months ago. I took my sweet time learning the Linux CLI, started with Mint and ended up feeling comfortable on Debian, both on VMs and bare metal.
+
+I tried Kali since it's what everyone talks about, however after a few months I still feel like I've learned nothing, I really don't know what it is I'm missing lol.
+
+I'll get into CTFs (of which I'm absolutely petrified btw lol), and hopefully I'll be on my way to a better future.
+
+Wish me luck haha.",2,iMoreno_90,2022-05-26 20:03:51
+a3oicn,2018-12-06 14:44:57,iaebu8m,Hi I need to learn fast,2,Vegetable-Mushroom99,2022-05-29 05:47:41
+a3oicn,2018-12-06 14:44:57,iaodg3z,Why isn’t sites like HacktheBox included in this list? Just curious,2,,2022-05-31 16:06:36
+a3oicn,2018-12-06 14:44:57,id00o6x,I forget my Apple I'd password room shifting time he's documents gone 🥺,2,No-Individual-137,2022-06-19 23:32:33
+a3oicn,2018-12-06 14:44:57,id7hydw,Funny I work for Tandon. The CTF 101 guide 😂,2,Visible-Shop57,2022-06-21 17:59:41
+a3oicn,2018-12-06 14:44:57,idxjroz,step 1: buy a dark coloured hoodie :),2,horizonrave,2022-06-27 14:15:36
+a3oicn,2018-12-06 14:44:57,ie4u0pi,Theres a 3rd path where you just do labs and watch cringy hacking videos and slowly peice together how a network works and how a web application fits into that picture.  Fake til you make it with bug bounties.,2,sjsbbwfawiggots,2022-06-29 01:55:09
+a3oicn,2018-12-06 14:44:57,ispjcju,[removed],2,,2022-10-17 19:10:25
+a3oicn,2018-12-06 14:44:57,it26r3n,[removed],2,,2022-10-20 12:17:41
+a3oicn,2018-12-06 14:44:57,jtm7fs6,As some one who wants to learn . I can't trust any links on a hacker forum lol,2,,2023-07-27 03:16:22
+a3oicn,2018-12-06 14:44:57,jy8bwoc,Anyone want to work on a fun project with me? High rewarded for your time 😊,2,Electrical_War_3224,2023-08-29 13:59:00
+a3oicn,2018-12-06 14:44:57,jzgwwec,i want too learn how too dox people,2,Visual_Honey_3873,2023-09-07 01:54:32
+a3oicn,2018-12-06 14:44:57,k3p5qwx,"As a tester by trade, I have wanted to learn ethical hacking, but I am also someone who can easily go off on a tangent, and every time I decide to sit down and stqrt learning about hacking, I seem to find myself faced with a million links, tools, techniques and so on.
+
+Can anyone offer me just **one** place to start? For someone who knows nothing at all about hacking?
+
+&#x200B;
+
+Or one technique to learn first off, ie a (relatively) simple exploit and something I can do to prove it worked without having to download loads of tools (ie one tool and now to use it).
+
+&#x200B;
+
+along with a gazillion options and tools, most info assumes I already have preexisting knowledge I dont, and then I am looking at a tool and having to go off and find other info on how to install the tool the commands it has, what environment it runs in, etc etc, and there I go off on another tangent
+
+&#x200B;
+
+can anyone recommend any online resources for just one type of hack, which take you through from beginning to end?  I only have a windows laptop atm, but if a linux one is needed I can set up a dual boot or vm etc (and if so, do i need a specific linux distro?)
+
+&#x200B;
+
+its great to have options, but when you ae starting out and prone to being easily distracted, a post with 10 -20 links just leaves me going ""oooh that's cool, oooh thats cool too, ooh i want that its shiny and fun, hang on, no i want to do that one first!"" etc etc
+
+&#x200B;
+
+hoping someone out there will just say ""go to this one url, download and install this one tool and use this one video/instructional url"".
+
+&#x200B;
+
+id just like to try just one thing and get it to work, before being overwhelmed with lots more options.
+
+its not the coding side I am struggling with, its the setup and all the tools on offer etc etc. 
+
+&#x200B;
+
+id like to try something simple (but there is so much info and ""noise"" out there I am not even sure what a simple hack would be?)",2,Kimmyh51,2023-10-06 10:33:38
+a3oicn,2018-12-06 14:44:57,kc7l20s,Are these resources still valid?,2,,2023-12-06 10:14:07
+a3oicn,2018-12-06 14:44:57,ki44f5b,Commenting to save,2,Traditional-Party-76,2024-01-16 12:19:50
+a3oicn,2018-12-06 14:44:57,kv9oj96,Anyone who dislikes someone over using a script is an asshole.  Who the fuck really cares??,2,enlguy,2024-03-17 11:52:54
+a3oicn,2018-12-06 14:44:57,eb8j8db,!remindme,2,Awsul,2018-12-06 20:07:52
+a3oicn,2018-12-06 14:44:57,eb8kook,Marking this,1,ExtraSloppyyy,2018-12-06 20:23:57
+a3oicn,2018-12-06 14:44:57,eb8ldq4,Thank you for the share !,1,hackmebr0,2018-12-06 20:31:30
+a3oicn,2018-12-06 14:44:57,eb8luzt,Thank you for sharing this ! ,1,nocmd,2018-12-06 20:36:35
+a3oicn,2018-12-06 14:44:57,eb8p2qe,Thank you!,1,MotivationMan94,2018-12-06 21:11:01
+a3oicn,2018-12-06 14:44:57,eb92eaq,Thank you for making this.,1,The0poles,2018-12-06 23:31:28
+a3oicn,2018-12-06 14:44:57,eb9smyy,This post is great! Now I'm skeptical about signing up for cybrary...,1,burnie93,2018-12-07 05:39:52
+a3oicn,2018-12-06 14:44:57,eba6zz9,"I'm going to comment on this post, so I don't lose it ",1,K4rm4_4,2018-12-07 12:11:32
+a3oicn,2018-12-06 14:44:57,ebacp61,I myself am at the point where I try to understand what I'm doing but don't always get everything. I have a github where I occasionally post self-made tools (all fairly basic) but some quite fun. If you want to take a look here it is: [https://github.com/TheDarkHorseUprising?tab=repositories](https://github.com/TheDarkHorseUprising?tab=repositories) please let me know what you think and also if you are interested in making a tool together.,1,,2018-12-07 13:45:05
+a3oicn,2018-12-06 14:44:57,ebcu3zz,What do you think of Udemy courses on hacking though?,1,xynaxia,2018-12-08 14:20:46
+a3oicn,2018-12-06 14:44:57,ebf3kxx,Interesting ,1,TRN_WhiteKnight,2018-12-09 09:57:37
+a3oicn,2018-12-06 14:44:57,ebosrr4,"I'm a noob here that knows how to code. While I'd like to say that I'm in it only to have fun, I do have some expectation of changing careers into hacking.
+
+For the first path there's a shit ton of job postings out there (requiring kali linux knowledge and the like), however I don't see many for the second path. How does one navigate the second path job market? I suppose it's more about your network (of professional contacts)?",1,burnie93,2018-12-13 09:04:32
+a3oicn,2018-12-06 14:44:57,ebowprs,"!remindme
+",1,ItsSnow,2018-12-13 11:14:04
+a3oicn,2018-12-06 14:44:57,ebqe8bj,Theres never a shortcut to learn these things but this post was the most useful so far for me! Appreciate it! :),1,,2018-12-13 23:49:36
+a3oicn,2018-12-06 14:44:57,ebzes4c,Thank you so much. This is an enlightment,1,,2018-12-17 15:58:29
+a3oicn,2018-12-06 14:44:57,ec3bckr,I'm studying Computer Systems engineering and wish to learn about ethical hacking. This post made my day. Thanks.,1,ABlokeCalledGeorge8,2018-12-19 04:03:48
+a3oicn,2018-12-06 14:44:57,ec8vojz,What about overthewire.com,1,Fehyt,2018-12-21 12:24:00
+a3oicn,2018-12-06 14:44:57,ecbzjax,A newb here thank you for your post :) I shall try to learn the other path ,1,ikarosbooho,2018-12-22 18:07:34
+a3oicn,2018-12-06 14:44:57,eci0lu3,I love this thank you. I've been looking for a serious tutorial like this. I've always been fascinated with Information Security and you just kick started the learning process. ,1,Shakrito,2018-12-25 03:44:49
+a3oicn,2018-12-06 14:44:57,ecnyl4b,Outstanding list of tools great job! Adding this to my tool kit. Cheers. ,1,ragediver,2018-12-27 16:06:44
+a3oicn,2018-12-06 14:44:57,ecqd8mz,"Very informative post, especially for someone looking to go down the rabbit hole. I've been looking into potentially changing careers and working towards a CEH or OSCP. Besides brushing up on some foundational topics, going through the overthewire wargames has been incredibly helpful. Looking forward to trying some of the other recommendations as I gain more education / experience.",1,xGravePactx,2018-12-28 14:54:55
+a3oicn,2018-12-06 14:44:57,ecskpgn,First Bookmark.. Thank you,1,Sin_Bad_,2018-12-29 08:57:08
+a3oicn,2018-12-06 14:44:57,ecukvks,Excellent post!,1,Avispero,2018-12-30 03:49:07
+a3oicn,2018-12-06 14:44:57,ecvcnb1,"I fully agree that there is a lot of shallow approach to hacking. 
+But. Does anyone else get put off with names that have pwn, hax, l33t in them. 
+It just doesnt feel like the right resource to learn from.
+I used to go to enigmagroup. Did a few challenges, but then they set up a pay wall before i got into more serious stuff. Didnt have the money to spare then so i do not know if they are worth it.",1,anotherbigmistake,2018-12-30 13:33:32
+a3oicn,2018-12-06 14:44:57,ed137yo,"hey dude should i learn anything if i want jump into ctf? i mean i have no experiance in programing,hacking i have nothing do i need something maybe im missing the basics? what are the basics?i dont even know the first path like i opend the links and i was confused sooo confused",1,,2019-01-01 19:43:22
+a3oicn,2018-12-06 14:44:57,ed4cn1x,"Is it illegal to break in to these sights, even if they are meant for breaking in to?",1,joontee_,2019-01-03 01:49:21
+a3oicn,2018-12-06 14:44:57,ed65yt6,"I understand the fact that we should learn hacking by resolving CTF but for that we nerf some bases no ? 
+Wich programming languages should I learn, C, C++, Assembler (I already know Python) ? What network course should I read ? 
+I mean what do I need to start understanding thé fundamental concepts that I will appli during CTF ?? ",1,_drivin,2019-01-03 19:46:25
+a3oicn,2018-12-06 14:44:57,ed90wkz,"muy bueno
+
+&#x200B;",1,Nico_ARG_,2019-01-04 20:23:20
+a3oicn,2018-12-06 14:44:57,edgvbn4,Also check [hackthebox.eu](https://hackthebox.eu)!,1,,2019-01-07 12:57:36
+a3oicn,2018-12-06 14:44:57,edqlvgm,my sole project that taught me the most about Hardware security was flashing the PSP and finding exploits every time sony patched an old one. So much fun but it was a much simpler time back then,1,Sharkytrs,2019-01-10 19:55:27
+a3oicn,2018-12-06 14:44:57,eduktpy,I was just browsing looking for a specific answer and I found much more... Well done ,1,BigDankPlank,2019-01-11 23:17:21
+a3oicn,2018-12-06 14:44:57,edzz5wo,"What do I need to know to do ctf challenge? Like, what do I have to learn first, before I can do these ctf challenges?",1,PitrovSecondary,2019-01-13 20:11:56
+a3oicn,2018-12-06 14:44:57,ee9tbs2,Thank you for this. Really excited to try them out.,1,abichulo007,2019-01-17 14:01:00
+a3oicn,2018-12-06 14:44:57,eebde20,I was legit about to post on how to start in all this thanks  you rock,1,MasterMindtv,2019-01-18 00:29:07
+a3oicn,2018-12-06 14:44:57,eee2koj,.,1,,2019-01-18 22:04:29
+a3oicn,2018-12-06 14:44:57,eelolbq,[deleted],1,,2019-01-21 06:34:59
+a3oicn,2018-12-06 14:44:57,eem8y7q,Can you start a CTF without any experience though?,1,Dogg70504,2019-01-21 14:26:26
+a3oicn,2018-12-06 14:44:57,eeogm86,"Good links, interesting... may have a look at some of them :)",1,,2019-01-22 08:17:50
+a3oicn,2018-12-06 14:44:57,eeta0jy,"If one were to begin hacking, should they start at the first path and go to the second path after they learn the ropes or should they immediately go for the second path?",1,TheMistake420,2019-01-24 01:58:49
+a3oicn,2018-12-06 14:44:57,eevyp0d,"I used a program to get a WiFi code, and People just think i am a fucking wizz. I am like i just download a fucking program :-D",1,,2019-01-25 00:25:08
+a3oicn,2018-12-06 14:44:57,eexs90l,"I am brand new to anything like cyber security and hacking (though I do have experience in programming), and this question has been bothering me so please bear with my noobishness. Is it safe to do this on my computer I use for home (with information such as my name, my school email and passwords, my personal emails and passwords)?",1,,2019-01-25 16:12:32
+a3oicn,2018-12-06 14:44:57,eezqhc9,!RemindMe,1,Generic-Name-Here,2019-01-26 05:26:31
+a3oicn,2018-12-06 14:44:57,eezqli6,I just want to use my phone as a hacking tool and make things simple as that one game called Hackers😂,1,DJSCR3AM1NGH0ST,2019-01-26 05:28:08
+a3oicn,2018-12-06 14:44:57,ef3blcc,"But If I start studying hacking by practicing CTF , then I won't be able to know practical stuff such as hacking neighbors WiFi or MITM attack or ARP generating payload and hacking",1,missAHKFF4200,2019-01-27 11:33:44
+a3oicn,2018-12-06 14:44:57,efxt39p,Thanks for this. I've always wondered what CTF's mean...now I know. ,1,archyonrails,2019-02-07 12:18:20
+a3oicn,2018-12-06 14:44:57,eg6pi3h,"I’m new to this sub, and “new” to hacking. Meaning I’m aware of what it entails but I haven’t learned how to code and network... yet
+
+That being said, this is a great post. I’m so tired of joining hacking groups where posts like “plz halp me hack fab. Will pay” things are posted. This needs to be a community focused on what hacking is at it’s core, exploiting vulnerabilities for the sake of improving security. And for the love of God, actually learning the science behind it, not just riding the coat tails of someone else’s work. Those programs, although helpful in some instances, I feel should be limited to basic cyber security exploits or used as a tool to help learn about why it does what it does and how to make something similar yourself",1,MrCleetus,2019-02-10 23:11:51
+a3oicn,2018-12-06 14:44:57,egdktrn,I am kind of new to CTF. Which website is best for CTF beginner?,1,missAHKFF4200,2019-02-13 12:19:24
+a3oicn,2018-12-06 14:44:57,egmwncl,Ctf sound fun sounds fun. Thanks I was about to ask on a reddit post but I saw this,1,,2019-02-17 02:06:30
+a3oicn,2018-12-06 14:44:57,egozsui,Nice,1,ASDFGHJKL_101,2019-02-17 23:50:26
+a3oicn,2018-12-06 14:44:57,egthfzg,"Thanks, they post gives a good path, this is actually very useful. CTF's are fun, if one can clear all 35 levels without cheating, it will give a strong base to anon.",1,Nickoley,2019-02-19 18:28:21
+a3oicn,2018-12-06 14:44:57,egxec89,">  The CTF community is filled with smart people who can't give two shits about elitist mask wearing twitter hackers, instead they are genuine nerds that love screwing with machines. 
+
+&#x200B;
+
+I never realized the term ""hackers"" started to get attributed to anything but the die hard computer nerds. 
+
+&#x200B;
+
+ I really don't care about the masks. I just want friends who like breaking stuff too. :D
+
+&#x200B;
+
+Very nice post OP.",1,greengobblin911,2019-02-21 02:54:38
+a3oicn,2018-12-06 14:44:57,ehcgkvd,nice recap!,1,alborotogarcia,2019-02-26 20:43:32
+a3oicn,2018-12-06 14:44:57,ehn8r3m,[deleted],1,,2019-03-02 18:57:22
+a3oicn,2018-12-06 14:44:57,ehpxeya,Well written post.,1,SkynetGosu,2019-03-03 20:20:47
+a3oicn,2018-12-06 14:44:57,ei0fo1d,How to start a career in cyber security. https://www.stationx.net/cyber-security-career-guide/,1,NathanHouse,2019-03-07 18:34:30
+a3oicn,2018-12-06 14:44:57,ei4qxho,"thankyou man for this post, it's very usefulll for beginners like me.....",1,Triple2a2,2019-03-09 10:16:09
+a3oicn,2018-12-06 14:44:57,ei88hje,Great post! It is going straight to my bookmarks!,1,bvda,2019-03-10 20:10:59
+a3oicn,2018-12-06 14:44:57,eiah4yw,"I have good programming knowledge, but I don't know anything about Ethical hacking. Which can be the best place to start? ",1,muhib21,2019-03-11 17:44:27
+a3oicn,2018-12-06 14:44:57,eig8np8,"Learning to hack and using hackers webpages and resources sounds to me like a great way to get hacked yourself.... I'm not pointing my finger at OP or his links. I just mean in general.
+
+How do you ever know when you can trust a link or a tool you install or who your talking to? That's what has kind of kept me away. I don't want my bank accounts drained and identity for sale in [insert country] on my way up as I learn.",1,MrDaveIsAProgram,2019-03-13 19:01:56
+a3oicn,2018-12-06 14:44:57,eip5t73,Is there a reddit community that will guide me through [picoctf.com](https://picoctf.com)? Or write ups I could read through? I'm extremely new. ,1,ExZerminator,2019-03-17 00:24:14
+a3oicn,2018-12-06 14:44:57,eirw43s,Does anyone know a YouTube channel or website that teaches you the basics because I’m better with hands on or visuals?,1,rrelaksd,2019-03-18 01:57:17
+a3oicn,2018-12-06 14:44:57,eisc6qo,[removed],1,,2019-03-18 06:39:07
+a3oicn,2018-12-06 14:44:57,ejfhczc,Look at some of these tutorials: [https://github.com/rootVIII/LABS\_443](https://github.com/rootVIII/LABS_443),1,,2019-03-26 17:03:10
+a3oicn,2018-12-06 14:44:57,ejh2no2,"Nice, Good job!..",1,Krunchin-Munchin,2019-03-27 04:16:22
+a3oicn,2018-12-06 14:44:57,ek2yhff,Let us see if it works!,1,mavdabbler,2019-04-04 05:11:32
+a3oicn,2018-12-06 14:44:57,eka46m5,Damn,1,luckybaztard,2019-04-06 23:51:57
+a3oicn,2018-12-06 14:44:57,ekg0m5l,"Probably nobody will read this, but I'm completely new to hacking, like NEW new, how do I start, to make my way up to being able to compete a CTF?",1,Jake_Guy_11,2019-04-09 03:18:41
+a3oicn,2018-12-06 14:44:57,ekh9udy,"Is developing ""jailbreak""s for hacking your own devices count as ""ethical hacking"" mm it's unethical to not let someone have access to there own devices right ? And its just that. Your devices .. So I guess ?",1,idumpvitastuff,2019-04-09 16:28:32
+a3oicn,2018-12-06 14:44:57,ekj16ld,"Start Hacking with PYTHON, This is the most commonly programming language used by hackers. See why?
+
+&#x200B;
+
+[https://wrytin.com/vinaymishra/why-python-programming-language-is-favorite-for-hackers-ju6h5oih](https://wrytin.com/vinaymishra/why-python-programming-language-is-favorite-for-hackers-ju6h5oih)",1,Mike-Elfa,2019-04-10 05:21:56
+a3oicn,2018-12-06 14:44:57,ekp0vf4,"Guys/girls, i need text tool to easilly handle( read & write) large txt files in windows...keyword files for JtheRipper larger than 10GB...any suggestions?",1,,2019-04-12 06:46:44
+a3oicn,2018-12-06 14:44:57,ekw4hc2,Thanks this was a huge help,1,Chocl8biscuit,2019-04-14 19:58:11
+a3oicn,2018-12-06 14:44:57,el1hrry,"Thanks, this gives me so much hope and determination for my future in the cyber security world",1,Annuall,2019-04-16 18:55:18
+a3oicn,2018-12-06 14:44:57,el6a8oo,Tnx for the info . very helful,1,RichardCarsonn,2019-04-18 09:29:52
+a3oicn,2018-12-06 14:44:57,elhm129,"Wicked channel. 
+
+Cracking feeds and responses.
+
+&#x200B;
+
+now lets see if we make the headlines ......",1,crypto0sy,2019-04-22 11:58:00
+a3oicn,2018-12-06 14:44:57,elhpxh8,Noted,1,noobdevel,2019-04-22 13:07:04
+a3oicn,2018-12-06 14:44:57,enk5jkv,"## Help, I need a hacker. Documents and phone were stolen on a family trip
+
+Hi, I need help!!!! I'm currently in Jamaica with my family, and today was walking to a park. Had my passport, debit cards, and phone and other ID in my purse. A bike attacker snatched it. All the tracking apps require a prior installation, which I don't have. Find my Samsung requires a setup which I didn't do cos I'm an idiot. Please, how can you help? I only have a location from 6mins after it was stolen on my Maps timeline and the IMEI: 356134100301719. I really need my documents back and tracking the phone might be the only way",1,debraawe,2019-05-15 03:33:24
+a3oicn,2018-12-06 14:44:57,eo293e8, Does anyone know how to and want to take down this girl's IG who stole money from me? I have her email address. Also could hack her iCloud and get tons of videos and pics.,1,,2019-05-18 21:40:42
+a3oicn,2018-12-06 14:44:57,eo5cmrq,What prerequisite knowledge is needed. Are there languages I should know?,1,Vibron83,2019-05-19 19:40:22
+a3oicn,2018-12-06 14:44:57,epw6dz4,Please read rule 3,1,takkie_bos,2019-06-03 13:07:13
+a3oicn,2018-12-06 14:44:57,ku8eb70,I’m a Kali skid 😂 nothin wrong with it,1,Complete-Secret3140,2024-03-10 15:54:45
+a3oicn,2018-12-06 14:44:57,kuzf1ho,Need to know more,1,CommunicationUsed737,2024-03-15 12:47:53
+a3oicn,2018-12-06 14:44:57,kvf4hwp,can someone tell me how to make or how to find and send a zip bomb disguised as a pdf or exe if possible?,1,Asaspuke,2024-03-18 12:53:48
+a3oicn,2018-12-06 14:44:57,kvknyz7,Are these websites teaching you how to hack ? I’m specifically trying to do something big I just need to know before I waste time ,1,Pitiful-Ad-9458,2024-03-19 13:13:25
+a3oicn,2018-12-06 14:44:57,kwmlu28,有渗透的技术吗,1,Ok_Panda2394,2024-03-26 11:41:16
+a3oicn,2018-12-06 14:44:57,ky3tpbt,Yo does anybody know hot to hack powerschool to change grades. I can pay??,1,This_Original8982,2024-04-05 01:21:10
+a3oicn,2018-12-06 14:44:57,kyq3i7l,"! This thread needs a 5 year mandatory update !
+Things have changed a lot i guess since then and with all this AI stuff coming our way, Can anyone update this thread for noobs like us to get started!
+Will be really helpful 😁.",1,starkint10880,2024-04-09 04:21:08
+a3oicn,2018-12-06 14:44:57,eba074b,"Even ultimater two step guide to hacking the CPU mainframes:
+
+1) Want something
+
+2) Take it",1,TitusImmortalis,2018-12-07 08:43:26
+a3oicn,2018-12-06 14:44:57,ep7ku91,[removed],0,,2019-05-28 22:38:06
+a3oicn,2018-12-06 14:44:57,i6xcs0q,"Hi I have a question 
+
+My mother is a teacher and she has a student that keeps finding out about where she used to live and her current address and the student keeps saying that he has an app that allows for him to get into her phone while at school she doesn't log into the schools wifi and she hasn't left her phone around the students so I'm just stumped only thing I can think of is those websites that you can look up a person but if he's using an app that would be a whole nother story",0,dimma-thick-D,2022-05-01 17:18:27
+a3oicn,2018-12-06 14:44:57,i935kxk,Need help recovering my wifes facebook that got hijacked. Can anyone help me,0,_HIGH_OCTANE,2022-05-18 15:59:26
+a3oicn,2018-12-06 14:44:57,i9q63l3,7292358354,0,No_Debt7858,2022-05-23 20:34:49
+a3oicn,2018-12-06 14:44:57,jv8x9uv,I'm browsing through here reading the posts but is there any of you that knows how to remotely install spyware on Android galaxy S22 or clone a device.  All I see is posts about CTF it seems to me that all this CTF stuff is some dumb game that's being played and not actually doing anything productive.   I want to learn the RAT and  malicious links that's actually accomplishing something.   You know how many husbands or wives could use such help on knowing the truth about their partner how many lives that could save and make better but no one is offering to help those people so many of them would be so much better off but these so called hackers that ask for money or pay 1st are just  scamming people.  I promise you that if someone would actually prove their work before payment you would control the entire hacking world.   You would be the elite.  But no one does that and that just kinda makes me believe that no one can actually do it. They just scamming people and only creating more pain more problems more hurt for so many people.,0,gotME77,2023-08-08 02:22:58
+a3oicn,2018-12-06 14:44:57,eb87o7y,F,-1,jase01,2018-12-06 17:58:07
+a3oicn,2018-12-06 14:44:57,hlxm8z8,[removed],1,,2021-11-24 18:48:49
+a3oicn,2018-12-06 14:44:57,hn9inb5,"So I'm currently in path 1 with kali linux.... I'm trying to learn more about exploitation seeing as in this two year master's program I'm in I'll periodically get a prof that goes ""try exploiting metasploitable and tell how far you get"". It's slightly disheartening seeing as I am aware of best practices and cyber kill chain but in all technicality I know dick about how to carry out an attack because everything I've seen has come from a defensive standpoint. CTF seems to be more disassembly code analysis to generate exploits.... are there programs that pretty much teach you to ""attack""?",1,bassbeater,2021-12-05 00:48:24
+a3oicn,2018-12-06 14:44:57,hnvhcnl,like other people can ask stupid questions but i cant?  And then you dont even explain why?,1,stepdad666,2021-12-09 17:19:24
+a3oicn,2018-12-06 14:44:57,hnvhe0k,might as well kick me out now cause im going to ask the same question over and over again,1,stepdad666,2021-12-09 17:19:39
+a3oicn,2018-12-06 14:44:57,hnwg887,[removed],1,,2021-12-09 21:10:00
+a3oicn,2018-12-06 14:44:57,how8058,This is so comprehensive! Thanks for sharing,1,wesharethesamegoal,2021-12-17 08:30:55
+a3oicn,2018-12-06 14:44:57,hpfaja0,"I’m a bit late and no one will see this probably, but can anyone give me some advice as to how to be involved/find a ctf group to start gaining experience in the hacking field? I would love to do this as a job one day and am looking at where to start thank you",1,jaxtheman42,2021-12-21 13:58:07
+a3oicn,2018-12-06 14:44:57,hqm7d5j,"I'm curious dude, I am 15 yo currently learning python my first language, what language do I need for CFT? I'm sorry if it sounds dumb.",1,soutaarima1,2021-12-31 00:09:27
+a3oicn,2018-12-06 14:44:57,hrcon5g,Someone teach a girl this lol 💆🏻‍♀️😅,1,No-shetooprettysumer,2022-01-05 13:39:31
+a3oicn,2018-12-06 14:44:57,hu4ojuj,Helps a lot thank you,1,DJ_SHADY_13,2022-01-25 08:16:57
+a3oicn,2018-12-06 14:44:57,hwp6lz5,Anyone know how to hack into Snapchat hit me up,1,Additional_Set1570,2022-02-12 21:59:20
+a3oicn,2018-12-06 14:44:57,hybw0qb,https://t.me/+WxXviOPjZPUzMDAy,1,longarms4567,2022-02-25 02:38:46
+a3oicn,2018-12-06 14:44:57,i1s3v7g,saved,1,throwaway1236472123,2022-03-23 11:09:36
+a3oicn,2018-12-06 14:44:57,i1yhc8c,So I wanna learn hacking (what a cliche beginning) but the best programming language I know is python. And python hacking tutorials always are about using this library to do this and done hacked but I don’t like it because I wanna learn to hack and not use premade libraries to do stuff . I got this book called hacking the art of exploitation but it talks in c… and my c isn’t very good so is there any good books to learn actual fundamentals of hacking with python or do I have to suffer through c to become the ULTIMATE HACKER lol.,1,,2022-03-24 17:43:11
+a3oicn,2018-12-06 14:44:57,i2qh96y,"Anyone got advice, someone is trying to blackmail me I'm not a hacker with threats of sending sensitive photos to contacts of mine unless I send them €500 in btc. Obviously I'm not going to be paying €500 to them. But any advice would be appreciated.",1,Siads23,2022-03-30 16:51:08
+a3oicn,2018-12-06 14:44:57,i3o7dbd,TY,1,TTMFrs,2022-04-06 20:11:46
+a3oicn,2018-12-06 14:44:57,i6sw2jn,May i propose https://www.root-me.org/ to be added to the list?,1,tfeserver,2022-04-30 15:59:21
+a3oicn,2018-12-06 14:44:57,i827gfg,[removed],1,,2022-05-10 15:23:41
+a3oicn,2018-12-06 14:44:57,iael346,Someone who still cares https://m.youtube.com/watch?fbclid=IwAR1TP5C1HOzfFtu3Grazzy4TmzjBj-duAjYxHUNQu0bqPL5NDXhRpHrQIyQ&v=t7STD2ESmWg&feature=youtu.be,1,No-Yam-5158,2022-05-29 07:57:14
+a3oicn,2018-12-06 14:44:57,iat2f09,"www.socialcreator.com/faisalproduction 
+Best apps are available in here 
+Just click ⭐⭐⭐⭐⭐",1,FaisalProduction,2022-06-01 17:06:05
+a3oicn,2018-12-06 14:44:57,ib0y4v8,I was told this is the place to come. I really need help finding out ip addresses to two emails. I've tried apps & no luck. Please get back to me! I'm willing to pay or whatever. Tired of this person trying to sabotage my family.,1,answermethiis,2022-06-03 11:45:17
+a3oicn,2018-12-06 14:44:57,ibr84su,"Thanks for t**he way, up for beginners. But for the pros nice cool**",1,Ultimatetechno,2022-06-09 17:38:00
+a3oicn,2018-12-06 14:44:57,ibs4sjl,"Greetings, what is the best way to deindex a website from search engines? Maybe hack a website and put a noindex tag? is that a thing?  
+Also i heard about backhat seo, then people buy a lot of low quality backlinks, so google respond to that negatively and lowers the website in search results, is this true?",1,casualredditorxd,2022-06-09 21:32:28
+a3oicn,2018-12-06 14:44:57,ic2pld0,I need help from someone who can get an Ig password,1,FuCa84,2022-06-12 10:56:05
+a3oicn,2018-12-06 14:44:57,ic85ps0,Not sure where to ask this but looking to see where someone created a Face book account from.... someone made a few threats with a not too active account made just to make threats.... Thanks!,1,wrestlewarehouse,2022-06-13 17:27:46
+a3oicn,2018-12-06 14:44:57,id6et0l,This is very informative. Thanks  for share.,1,wibako2488,2022-06-21 13:08:08
+a3oicn,2018-12-06 14:44:57,idhwira,Thank you for this!,1,tobor-rm-,2022-06-23 23:57:27
+a3oicn,2018-12-06 14:44:57,idoorb8,Whats the best way to hack someone's snapchat?,1,RedJockYT,2022-06-25 13:31:44
+a3oicn,2018-12-06 14:44:57,idqnfvt,Well I have a Mac with an M1 chip. What’s should I do to start ? Can’t even download Kali… and yes I’m green. Maybe 10 hours into YouTube videos but I think this stuff pretty cool and the ultimate to add value soo im ready to put some work in to learn… but this Mac seems to be making things harder,1,LearningLateSucks,2022-06-25 22:39:31
+a3oicn,2018-12-06 14:44:57,ieytvut,hello everyone who knows how to hack android remotely. I only know the person's phone number. it's possible. if yes then write to me,1,Both-Ground4184,2022-07-05 17:32:02
+a3oicn,2018-12-06 14:44:57,ifc5ki9,Hey your hacking Snapchat?,1,Ola19990,2022-07-08 12:45:48
+a3oicn,2018-12-06 14:44:57,ifmcum4,"hola que tal buenas me llamo exotico hace muy poco comence en el mundo de la seguridad informatica y todo lo que tiene que ver con las vulnerabilidades de una pc o sistema operativo , pero como todo empece con kali linux , quisiera saber si alguien me podria ilustrar o enseñar hacking sin kali o con kali seria de mucha ayuda ya que tengo un conocimiento algo bajo",1,Exotico321,2022-07-10 17:48:06
+a3oicn,2018-12-06 14:44:57,ifmd4mn,"hello, how are you, my name is exotico, very recently I started in the world of computer security and everything that has to do with the vulnerabilities of a pc or operating system, but since everything started with kali linux, I would like to know if someone could enlighten me or teach hacking without kali or with kali it would be very helpful since I have a somewhat low knowledge",1,Exotico321,2022-07-10 17:50:04
+a3oicn,2018-12-06 14:44:57,ifp0j86,"Hello, I hope you are well, the truth is that I have been learning about vulnerabilities and being able to do hacking for less than two weeks, I would like to know if someone could enlighten me on how to start hacking, I am currently with kali linux, thanks",1,Exotico321,2022-07-11 07:00:40
+a3oicn,2018-12-06 14:44:57,ifp9mra,Hey can someone that knows how to hack help me my Instagram account got hacked yesterday.,1,Fit_Membership_3920,2022-07-11 09:07:02
+a3oicn,2018-12-06 14:44:57,ify6g9r,I signed up for CTFtime.org but I see no way to get into a team. I am noob. How do I find a team to join so I can participate in next competition without making a team muse,1,Due-Street-4654,2022-07-13 03:50:41
+a3oicn,2018-12-06 14:44:57,ig17eys,I want to put the image of the outer cover of the home page in sites.,1,MindAccomplished954,2022-07-13 19:44:59
+a3oicn,2018-12-06 14:44:57,ig17jjl,At any price from hack,1,MindAccomplished954,2022-07-13 19:45:49
+a3oicn,2018-12-06 14:44:57,ig17ub8,?,1,MindAccomplished954,2022-07-13 19:47:47
+a3oicn,2018-12-06 14:44:57,ig1803m,I want to put the picture of the outer cover of the home page on sites at any price. Where is the hacker!,1,MindAccomplished954,2022-07-13 19:48:49
+a3oicn,2018-12-06 14:44:57,ig3bc12,"I just got hacked on Crypto.com, how do I find hackers account:(",1,emedina1,2022-07-14 05:18:26
+a3oicn,2018-12-06 14:44:57,igd13ca,Very good guide.,1,,2022-07-16 05:42:02
+a3oicn,2018-12-06 14:44:57,igk8lvb,Or you can download KaliLinux2022.exe,1,sonsuz-bina,2022-07-17 20:54:25
+a3oicn,2018-12-06 14:44:57,igo3lrf,id like to hack my local GOP website and replace the content with Dick picks from AFF. i just think it would be fun. there is no data to steal. i just rhink it wluld be funny! where should i start. i got all the dick pics i want. and its a go daddy hosted page.,1,JokePuzzleheaded1144,2022-07-18 17:47:14
+a3oicn,2018-12-06 14:44:57,igyc6oh,"There are also good books on the subject like ""The Art of Cyberwarfare"" (No Starch Press) that cover many of the worlds most notorious hacks over the years.",1,Jazzlike-Resource500,2022-07-20 19:05:28
+a3oicn,2018-12-06 14:44:57,ih2cdfw,I got one question and that is what’s the difference between tryhackme and hack the box?,1,Liigajyra_06,2022-07-21 15:53:54
+a3oicn,2018-12-06 14:44:57,ihgdfx5,Thank you,1,FrozeOfficial,2022-07-24 14:54:01
+a3oicn,2018-12-06 14:44:57,ihvz01n,For every North Korean hacker to develop nuclear or change Charles with a sex pen,1,MindAccomplished954,2022-07-27 18:50:36
+a3oicn,2018-12-06 14:44:57,ihvz3zg,sex movie,1,MindAccomplished954,2022-07-27 18:51:16
+a3oicn,2018-12-06 14:44:57,ihvzlf0,Not accepting your Egyptian declaration of nuclear development for North Korea,1,MindAccomplished954,2022-07-27 18:54:16
+a3oicn,2018-12-06 14:44:57,ii0deq0,"Great read, just started learning about hacking after being in IT for some time. Very informative",1,melissaaxo,2022-07-28 16:40:53
+a3oicn,2018-12-06 14:44:57,iiho066,"Hi, please help I need a professional hacker",1,DueAd3513,2022-08-01 10:15:51
+a3oicn,2018-12-06 14:44:57,iimfp09,This helped me so much!,1,PesteBrankkkj,2022-08-02 09:36:26
+a3oicn,2018-12-06 14:44:57,iiull22,are ctfs for money?,1,shindigin,2022-08-03 23:52:45
+a3oicn,2018-12-06 14:44:57,ij1d0na,"Someone defrauded me of General Kim and will return my right to the username, password and mouth here. The way in the Egyptian embassy is unparalleled to subdue Prince Charles",1,MindAccomplished954,2022-08-05 10:46:22
+a3oicn,2018-12-06 14:44:57,ij1d6at,"My life and my presence is a reason with the film through age, there is far from you, the reason for controlling South Korea, I ask for protection",1,MindAccomplished954,2022-08-05 10:48:12
+a3oicn,2018-12-06 14:44:57,ikb1nul,People get hate for all the wrong reasons. It should be for capture the flag,1,EconomyCauliflower24,2022-08-14 21:58:18
+a3oicn,2018-12-06 14:44:57,ikhpk5u,"I need help reporting racists on discord
+
+I'm brazilian",1,innominatus-,2022-08-16 07:27:59
+a3oicn,2018-12-06 14:44:57,ikua2fz,does a motorcycle helmet work?,1,Lustful_Gravekeeper,2022-08-18 20:14:02
+a3oicn,2018-12-06 14:44:57,iln93jn,Thank you,1,pocolococo,2022-08-24 20:57:03
+a3oicn,2018-12-06 14:44:57,ilsmd8h,What should I do I’m just starting,1,Then-Estimate-4703,2022-08-25 22:27:05
+a3oicn,2018-12-06 14:44:57,imgb20d,"Best CEH course  
+   
+https://docs.google.com/forms/d/e/1FAIpQLSdsCClXTjhAkVstNSK9KdMwanrlAJyOuO1cLKl7n3giAfcj4g/viewform?usp=sf\_link",1,Ok-Comedian-1211,2022-08-30 23:17:10
+a3oicn,2018-12-06 14:44:57,imklsib,"I'm thinking of learning hacking, and maybe becoming a penetration tester on the side, but is that a good idea? I've heard mixed things about how prevalent the need for pen testers is, and that it is constantly changing, so I'm wondering if it would be a waste of time to learn.",1,SpookySquid19,2022-08-31 20:48:53
+a3oicn,2018-12-06 14:44:57,imq1d43,"Can anyone help me? I have a friend that is being harassed and threatened to be hurt and making sure she gets fired from her job through text. The way the person is texting , it seems they know her. DM me if you think you can help out…",1,Revolutionary-Ad4425,2022-09-01 22:44:17
+a3oicn,2018-12-06 14:44:57,in9hvbu,Is this still applicable today?,1,MaikiMaikmx,2022-09-06 02:17:31
+a3oicn,2018-12-06 14:44:57,incjxn4,"Quick question. Has anyone got insider info on Microsoft? I’m doing some good for the Minecraft community here. It wasn’t meant to have rules, it was meant to be anarchy from the start. This is revenge for 1.19.1 are you really safe, or are you just trying to die off?",1,ArizonanCactus,2022-09-06 18:49:13
+a3oicn,2018-12-06 14:44:57,ingaqol,Hello guys. Can someone explain how to hack some shit trading scam site?,1,macola_jbt,2022-09-07 14:09:04
+a3oicn,2018-12-06 14:44:57,inicu46,"Professional hacking for any Social Media Account. Just Write me on Telegram for more Information.        
+@saleseller01",1,SelleronTelegram01,2022-09-07 21:58:18
+a3oicn,2018-12-06 14:44:57,inyuwdt,Great points! After getting frustrated with CTFs I moved on to actually studying the craft. Also love Kevin Mitnick’s books!,1,polybius_Kai,2022-09-11 09:44:26
+a3oicn,2018-12-06 14:44:57,iohobqf,i need someone who could helpme to take back my whatsapp account,1,Extra_Patience6883,2022-09-15 04:21:39
+a3oicn,2018-12-06 14:44:57,iohr31i,"1trust security, xss rat, stock, nahamsec is a free YouTuber of starter",1,EmploymentFormal4189,2022-09-15 04:49:09
+a3oicn,2018-12-06 14:44:57,ioy55iq,Hi can anyone help me I want to hack an instagram account but I don't know how to do it can anyone help me with information?,1,CioaraExotica,2022-09-18 16:59:55
+a3oicn,2018-12-06 14:44:57,iqkmtfd,alguien puede ayudarme o enseñarme a como puedo entrar a un instagram o cerrar un instagram pls es de suma importancia puedo pagar,1,belu8970,2022-10-01 01:16:22
+a3oicn,2018-12-06 14:44:57,isz8eqi,"From LiveOverFlow
+
+STOP WASTING YOUR TIME AND LEARN MORE HACKING!
+
+https://www.youtube.com/watch?v=AMMOErxtahk",1,AmorFati01,2022-10-19 19:52:08
+a3oicn,2018-12-06 14:44:57,ittakk4,Can anyone be kind enough to assist with a laptop pls DM,1,SIXLE66,2022-10-26 03:34:48
+a3oicn,2018-12-06 14:44:57,iuhunlo,hello looking for someone to help me earn money please,1,TugaHAck,2022-10-31 13:30:10
+a3oicn,2018-12-06 14:44:57,iuqy63n,God that [pwnable.kr](https://pwnable.kr) site is hot garbage. What a stupid fucking account creation process.,1,,2022-11-02 11:43:48
+a3oicn,2018-12-06 14:44:57,iv6726s,🤘🏽,1,nslayhun,2022-11-05 16:48:43
+a3oicn,2018-12-06 14:44:57,ivhum6w,Does anyone know anything about Skip Tracers or someone that is knowledgeable about blockchain like no ones business that could dm me?,1,BaronLeMew,2022-11-08 01:58:46
+a3oicn,2018-12-06 14:44:57,ivyqc63,[removed],0,,2022-11-11 16:38:23
+a3oicn,2018-12-06 14:44:57,iwr2hte,Who can help me hack an Instagram account,1,Mynbacommish,2022-11-17 18:38:50
+a3oicn,2018-12-06 14:44:57,iwyv3uu,"to start hack**ing** 
+
+learn programm**ing**
+
+and do some gam**ing**
+
+and some bitcoin min**ing**
+
+at the morn**ing**",1,undevfr,2022-11-19 12:28:18
+a3oicn,2018-12-06 14:44:57,ixgd4y5,gun_w,1,AmoebaAlternative829,2022-11-23 06:02:23
+a3oicn,2018-12-06 14:44:57,ixibmlx,"Thanks, very useful for me newbie.",1,Determined_Writing,2022-11-23 17:34:46
+a3oicn,2018-12-06 14:44:57,ixihy0s,"Hi! Is there really a hacker group that can check dummy accounts on FB?  
+Can you refer someone? No payments first policy - I can pay once I have the account details",1,modern_enthusiast,2022-11-23 18:15:28
+a3oicn,2018-12-06 14:44:57,ixnkh3r,I personally have no experience with any web languages such as HTML so what should I use to start learning the very basics?,1,ProfessionallDipShit,2022-11-24 20:36:40
+a3oicn,2018-12-06 14:44:57,ixqdh5p,Beautiful,1,C3nt1p3d32,2022-11-25 14:16:13
+a3oicn,2018-12-06 14:44:57,iyednss,I think mental illness among hackers is outrageously high.,1,kool-aid-and-pizza,2022-11-30 19:47:23
+a3oicn,2018-12-06 14:44:57,iyl4xul,E,1,DaRagingUnicorn,2022-12-02 04:53:59
+a3oicn,2018-12-06 14:44:57,iyut2us,Here are the top 5 Ways hackers use to hack PayPal account https://youtu.be/xAN1ZN1ckRE,1,aistrongboy,2022-12-04 09:10:48
+a3oicn,2018-12-06 14:44:57,iyvmuay,Hoping I can get help from the hacking community. I have recently been dealing with a hacker who’s stolen the password to my computer log in and has changed it. This isn’t the first time they have hacked us. We have purchased all new wifi boxes and phones and somehow they still find a way to get into our shit. We are convinced there is something in the house helping them get back into our stuff. We know who is doing it but can’t do much without the proof. Someone please help me figure this out so I can finally put a stop to this. It’s been non stop invasion of our privacy.,1,Significant_Mind_647,2022-12-04 15:04:22
+a3oicn,2018-12-06 14:44:57,j01bvor,"Hi everyone, I'm a newbie to hacking and I just want to start learning.  
+  
+In fact, I have a question; one of the skills required for hacking is networking, so where can I find out about networking? Are ""COMPTIA Network+ Guide"" and ""COMPTIA Network+ All in One"" good books? Is it a smart idea to start learning about computer networking with them?  
+  
+I would appreciate any suggestions you may have  
+  
+Your help is greatly appreciated.",1,Park-Helen,2022-12-13 10:47:59
+a3oicn,2018-12-06 14:44:57,j09dhmt,This is awesome thanks so much!,1,Real-Cranberry-9623,2022-12-15 00:27:10
+a3oicn,2018-12-06 14:44:57,j0dm23o,Am I allowed to ask a question...about what something is...I need help identifying an encryption.,1,Greener4588,2022-12-15 21:44:23
+a3oicn,2018-12-06 14:44:57,j162igp,If you can see this message me let’s make a team,1,,2022-12-21 22:51:50
+a3oicn,2018-12-06 14:44:57,j1e866z,"I have a question, but if someone somehow hacked you and got all the contacts on your phone threatens you, how do you block them from sending things to all of the people on my contact",1,Mainsterr,2022-12-23 17:33:59
+a3oicn,2018-12-06 14:44:57,j3z660m,b,1,LeakFire,2023-01-12 01:40:38
+a3oicn,2018-12-06 14:44:57,j57ypbl,This is an illusion,1,,2023-01-21 01:00:56
+a3oicn,2018-12-06 14:44:57,j6r807h,Anybody help me to study the basics,1,maskdguy,2023-02-01 09:06:44
+a3oicn,2018-12-06 14:44:57,j77lei8,i can hacking you,1,mbeiranvand,2023-02-04 18:10:32
+a3oicn,2018-12-06 14:44:57,j9eh1pz,Quién me ayude a hackear el Facebook de mi ex para recuperar mis videos de sexo con el puede quedarse los videos,1,ParticularClimate789,2023-02-21 09:24:55
+a3oicn,2018-12-06 14:44:57,j9m9f0e,erm... kinda illegal??,1,,2023-02-23 00:01:32
+a3oicn,2018-12-06 14:44:57,jalpzah,Thanks great article,1,LiorAluf,2023-03-02 09:23:40
+a3oicn,2018-12-06 14:44:57,jc5ykyb,This feels very red pill/ blue pill,1,Not_Arkangel,2023-03-14 08:04:25
+a3oicn,2018-12-06 14:44:57,jc7jj7h,!remindme one week,1,C3nt1p3d32,2023-03-14 16:47:29
+a3oicn,2018-12-06 14:44:57,jdf6xss,This is really hard for a regarded person!,1,hamdad666,2023-03-23 23:20:18
+a3oicn,2018-12-06 14:44:57,jdpxpu4,Does anyone know how to hack a Facebook account? I’ll pay you! Hit me up privately. Thanks,1,Stock_Supermarket_49,2023-03-26 07:15:27
+a3oicn,2018-12-06 14:44:57,jdschqz,I want someone to help me if you can plz send me a message,1,HMSLAR,2023-03-26 20:28:08
+a3oicn,2018-12-06 14:44:57,jf7hhpf,https://www.reddit.com/r/h4cking4life/comments/12dn87q/ch4tgpt/?utm_source=share&utm_medium=mweb,1,GoldStop3185,2023-04-06 17:03:32
+a3oicn,2018-12-06 14:44:57,jfrm8zz,"This is great for online resources. But I’m looking for a couple of books I can use to supplement my learning as I travel to and from work. 
+
+Currently I’m enrolled in TCM Academy’s PNPT course and then I’m shooting for the ejptv2 right after I get the TCM cert. If there are two or three books you guys would recommend what would they be?",1,,2023-04-11 00:23:51
+a3oicn,2018-12-06 14:44:57,jgjumx3,"Hello
+I am extremely new and lacking any type of knowledge in this area, however, my interest has been peaked! You see over 8 weeks ago my husband decided to text me that he wants a divorce but because he is cheating and told others that I WAS INDEED cheating ( never in a million would I destroy my children’s life this way!) he had his high tech brothers, they built a company Microsoft bought! 
+So, he and they terrorised my life. My phones, laptop, desktop, my mothers phone and her iPad were all attacked AND he is in our WiFi at home apparently and watching every keystroke I’m making at the moment. I can’t afford to replace this iPhone 11pm max and don’t know how to get out whatever has been put into it… malware, from what I’ve read. No idea. My husband is just bored with me, it’s been 24 years of the same hot, loving , willing and wonderful wife and mother, he’s told me how I’ve aged and im looking really saggy. Lol, im 55! Anyway, I need help. Take pity on me someone please. This is so unfair. He watches my every move…
+Oh and I have not involved the police etc yet as we need to come to a settlement $£ and he never used to be an asshole, he is the father of my children and he just thinking with his wallet and his dk",1,Express-Problem7234,2023-04-17 00:31:12
+a3oicn,2018-12-06 14:44:57,jgrodrp,"If you have someones ip, can you get there discord name?",1,Seppe_Foulon,2023-04-18 17:16:07
+a3oicn,2018-12-06 14:44:57,jhnnfjk,.,1,Plus_Map_8375,2023-04-25 14:33:02
+a3oicn,2018-12-06 14:44:57,ji0pk6v,"Hi,
+I need some help recovering an account so I can
+See messages from my brother who passed away…. If there’s anybody who can help with recovering a social media account for money please let me know….",1,breadsticksmomma,2023-04-28 05:25:16
+a3oicn,2018-12-06 14:44:57,ji1cu2r,Does anyone know a good website/book that can help me get better at networking?,1,spupinopupi,2023-04-28 10:42:22
+a3oicn,2018-12-06 14:44:57,jj9gxp5,"How do I get help me as I'm being black mailed and threaten if anyone could help me I will be grateful and if anyone can message me I will also be grateful as well and I am desperate. Thank you. 
+
+Ps I don't know how to do a post or anything",1,kingkiller66666,2023-05-07 22:00:59
+a3oicn,2018-12-06 14:44:57,jjc5u00,Following,1,Itchy-Ebb-3421,2023-05-08 14:06:59
+a3oicn,2018-12-06 14:44:57,jjc68dx,I need a hacker pls someone:(,1,BackgroundRecipe1478,2023-05-08 14:09:49
+a3oicn,2018-12-06 14:44:57,jjeikrn,Intéressant,1,Moldor_in,2023-05-08 23:37:57
+a3oicn,2018-12-06 14:44:57,jjhyx3j,"I have to say that CTF challenges are very technical and from what I have seen they focus very much on reverse engineering software/binaries. If you are interesting in hacking some software's credentials prompt, it might be something for you. 
+
+However if you are interested in remote access and penetrating systems, such as servers, remote machines, etc I personally think reverse engineering software will give you a hard time and might have little success.
+
+Usually servers have a few ports open. Most of the times its stuff like nginx, apache, mysql, etc. You will have a hard time exploiting those battle tested software on your own. You could be more successful just searching for the publicly available exploits for those services and executing them, especially if they are some older versions. Now if there are some lesser known software running behind an open port, yeah reverse engineering and building your own exploit could help, but I feel that is a rather rare scenario.
+
+Depending on your end goal, social engineering, web hacking (xss, csrf, file upload vulnerabilities, etc) and brute forcing could be much more effective and require far less skill to penetrate system.",1,Odd_Ad3953,2023-05-09 18:01:47
+a3oicn,2018-12-06 14:44:57,jk8c4gp,I need someone who can hack an Instagram account and or email account to permanently take it down  !!!😫😫,1,bessiegrace,2023-05-15 12:35:59
+a3oicn,2018-12-06 14:44:57,jk9v84j,"i don’t have any experience with computers what so ever, all i do is game on my pc. i want to start learning the simple components leading up to hacking. i probably sound like a noob but i’m genuinely interested in learning more about cyber security",1,Comfortable_Plan_283,2023-05-15 19:36:02
+a3oicn,2018-12-06 14:44:57,jkbt28l,Hello everyone does anyone know how to get access to some address with just their phone number? If yes please text me I got some money for you.,1,OkEntertainment1177,2023-05-16 04:30:27
+a3oicn,2018-12-06 14:44:57,jkuze3a,!remindme one week,1,C3nt1p3d32,2023-05-20 03:11:28
+a3oicn,2018-12-06 14:44:57,jkzf8eq,Thoughts on Mac book pro 13.3 2017? Looking to run Kali Linux just wanted to make sure it wouldn’t have any issues installing or run super slow before I spend the money on it. Thank you in advance for helping me on my new journey!,1,Top-Regret815,2023-05-21 02:56:52
+a3oicn,2018-12-06 14:44:57,jlijgfn,Hey! I’m new here and I was wondering if anyone could teach me the steps and ways to retrieve an account?,1,Old_Cartographer6129,2023-05-25 02:34:24
+a3oicn,2018-12-06 14:44:57,jnvmq39,[root-me.org](https://root-me.org) is better than HTB in my opinion. Also look at [http://www.wechall.net/](http://www.wechall.net/) for more sites and global rankings.,1,divine_boon,2023-06-12 08:50:29
+a3oicn,2018-12-06 14:44:57,jojn46p,"I wish I met hackers like you, instead I found myself just absolutely done with having faith in people. Been over 3 years now, 24/7…. Felt like different APTs even….
+
+All I know is that for some odd reason, cellular companies from different countries all have tunnels connected to my devices.
+
+Lot more but yeah, that’s all. I don’t think I can even appreciate the act of playing CTF. Guess who was turned in to a target for that very exact thing… I even found the flag but I was literally battling them as a clueless end-user. I’ve blued out a few times, the screen I mean, as in screen of death.
+
+Well now me and my family are all hacked and being harassed and there’s nothing we can do.
+
+Just being cryptojacked on all of our devices which I believe whoever is doing it is mining Ethereum.
+
+I don’t think most would understand the CTF that I’ve been put through… Just wanna say thanks to the “hackers” for making sure lives are ruined.
+
+I’ll just keep doing me regardless. I will do my very best to be all I can be in our next life and I’m going to show those p.p.o.s what a true hacker is.
+
+I truly hope my wish comes true and the very kingdom that is Malbern remains Eternal. Hell, you thought hacking and torturing innocent people was fun… Just wait, I hope all the bad ones that read this change your ways cause it is not going to be pretty for any of you. Would be funny, don’t you think?
+
+Imagine when we pass on, that we would go to rest… Well, now… Instead of that, it may very well be changing to provide for the lovely beings that deserve the world to be beautiful.
+
+That would have to be considered a rude awakening for anybody who’s been causing harm to anything else..
+
+Just warning y’all… Stay true to the true, all the way through cause Time ain’t got Time for pathetic pieces of shit. I’d say regardless, better start working on your contributions to the wellbeing of others, especially the ones you hurt/are hurting.",1,TrailingCircles,2023-06-18 03:17:34
+a3oicn,2018-12-06 14:44:57,jpkt4kf,Nice Info.. I found more at https://insectechs.in/category/ethical-hacking/,1,shasikitu,2023-06-26 11:45:11
+a3oicn,2018-12-06 14:44:57,jpw5ghi,♟️,1,,2023-06-28 18:51:47
+a3oicn,2018-12-06 14:44:57,jqi05pk,I NEED HELP SOMEONE IS SPENDING MY MONEY BUT ALL IK IS THEIR IP ADRESS SM1 DM AND HELP PLS,1,Key-Photograph-1280,2023-07-03 12:53:43
+a3oicn,2018-12-06 14:44:57,jr023cn,So hackthebox and tryhackme are not worth investing time in as beginner?,1,SolvingLifeWithPoker,2023-07-07 08:51:03
+a3oicn,2018-12-06 14:44:57,jswzik0,Amazing,1,,2023-07-21 20:47:49
+a3oicn,2018-12-06 14:44:57,jt8c34i,"Wow, this is an amazing and comprehensive guide to information security and ethical hacking! The two paths you've outlined offer valuable insights for anyone interested in the field. CTF sounds like an intense and rewarding way to learn while solving real-world challenges. Thanks for sharing these valuable resources and inspiring others to make a positive impact through knowledge and ethical practices! #informationsecurity #ethicalhacking #CTF",1,InnovativeTech_Nexus,2023-07-24 10:07:27
+a3oicn,2018-12-06 14:44:57,ju1w5c3,[deleted],1,,2023-07-30 09:00:00
+a3oicn,2018-12-06 14:44:57,jvtbh1c,Is it good for beginners - who doesn't know anything about cybersecurity or coding?,1,Mysterious-Gold-6763,2023-08-12 01:22:33
+a3oicn,2018-12-06 14:44:57,jvvkz9u,I need help to know an instagram account IP adress and track it or find who is the person behind this account. Please if someone can help me knowin who is harrasing me,1,Frosty-Lychee6989,2023-08-12 14:52:13
+a3oicn,2018-12-06 14:44:57,jw9cf87,Is Ctf help us to earn money?,1,0xsH4d0w,2023-08-15 08:32:26
+a3oicn,2018-12-06 14:44:57,jwk075s,"Hey Folks,   
+Microsoft in collaboration with Parablu is launching a Live Webinar. Join us to delve into the world of Microsoft 365 (M365).  
+Discover how you can enhance your M365 user and admin experience. Learn how Parablu's innovative solutions play a key role in providing invaluable data protection and backup capabilities.  
+Webinar Date: August 23, 2023  
+Time: 2:00 PM ET   
+Panelists:  
+\- Teri Doyle, General Manager of Modern Work US SLG at Microsoft  
+\- Randy De Meno, Chief Strategy Officer and Chief Operating Officer at Parablu  
+Teri and Randy will lead the discussion on best practices, latest features, and unique use cases of M365. Gain valuable insights on developing long-term data management and protection strategies.  
+https://www.linkedin.com/events/elevateyourmicrosoft365experien7089659326956519424/  
+   
+\#microsoft #m365 #dataprotection #backupandrecovery #parablu",1,harperbrat,2023-08-17 09:57:15
+a3oicn,2018-12-06 14:44:57,k1zon05,[removed],1,,2023-09-24 13:43:45
+a3oicn,2018-12-06 14:44:57,k38yg3h,"
+𝐇𝐚𝐯𝐞 𝐲𝐨𝐮 𝐛𝐞𝐞𝐧 𝐥𝐨𝐨𝐤𝐢𝐧𝐠 𝐟𝐨𝐫 𝐚 𝐠𝐫𝐞𝐚𝐭 𝐡𝐚𝐜𝐤𝐞𝐫 𝐭𝐡𝐚𝐭 𝐜𝐚𝐧 𝐜𝐥𝐞𝐚𝐫 𝐭𝐡𝐢𝐬 𝐨𝐟𝐟 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐰𝐢𝐭𝐡 𝐧𝐨 𝐭𝐫𝐚𝐜𝐞𝐬. 𝐈 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐢𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐞 𝐭𝐡𝐞 𝐠𝐞𝐧𝐮𝐢𝐧𝐞 𝐡𝐚𝐜𝐤𝐞𝐫 𝐭𝐡𝐚𝐭 𝐰𝐢𝐥𝐥 𝐠𝐞𝐭 𝐢𝐭 𝐝𝐨𝐧𝐞 𝐟𝐨𝐫 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝟏𝟎𝟎% 𝐚𝐬𝐬𝐮𝐫𝐚𝐧𝐜𝐞 𝐡𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐭𝐡𝐞 𝐠𝐫𝐞𝐚𝐭𝐞𝐬𝐭 𝐡𝐚𝐜𝐤𝐞𝐫 𝐬𝐨 𝐟𝐚𝐫. 𝐈 𝐰𝐢𝐥𝐥 𝐬𝐮𝐠𝐠𝐞𝐬𝐭 𝐲𝐨𝐮 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐡𝐢𝐦:
+
+𝐞 𝐦 𝐚 𝐢 𝐥: 𝐬𝐩𝐲𝐭𝐫𝐚𝐧𝐞𝐭 @𝐠 𝐦 𝐚 𝐢 𝐥 𝐜 𝐨 𝐦
+
+𝐈𝐆: @𝐬𝐩𝐲𝐭𝐫𝐚𝐧𝐞𝐭𝐭",1,Daisy11312,2023-10-03 05:47:29
+a3oicn,2018-12-06 14:44:57,k4awyro,Cool,1,,2023-10-10 17:44:59
+a3oicn,2018-12-06 14:44:57,k7531cy,how to learn hacking in italian? pleaseeee,1,peschito1989,2023-10-30 20:59:49
+a3oicn,2018-12-06 14:44:57,k7l9z0e,New here thank you for sharing 🙏🏼,1,zrayburton,2023-11-03 01:11:43
+a3oicn,2018-12-06 14:44:57,k7qhofi,I need help I have no karma points..what is u46 always finish launcher and why when I try to translate all kinds  of random numbers showed up in my clipboard?!  And when I tried  to translate it it said its possibly illegal..on fiance phone. Do I need to worry? in not tech savvy at all,1,No_Extreme727,2023-11-04 01:48:13
+a3oicn,2018-12-06 14:44:57,k80opez,"kinda skimmed over this and i saw at the beginning, it said something about CTF. the only other place besides here ive ever heard ctf mentioned, is my task manager. i got some random things happen, and was somewhat concerned with my security. i look in my task manager and some stuff is taking like 30% of my cpu so i look up these things, then i get interested, so i look up all the stuff that takes any cpu in background processes just to see whats up with my pc cause i bought it pre set up (laptop upgraded from windows 7-8 to windows 10) and CTF loader was one of them, so thats cool, i guess.
+
+ok bye i gotta make slides for skl lol",1,Jomaz242,2023-11-06 02:31:24
+a3oicn,2018-12-06 14:44:57,k9boyhj,TryHackme and HackTheBox worked very well for me,1,Kiing030,2023-11-15 06:23:48
+a3oicn,2018-12-06 14:44:57,kavda59,So... CTF hacking is actual hacking?,1,Moon-Ghost,2023-11-26 19:14:45
+a3oicn,2018-12-06 14:44:57,kbn8lhm,"Hi, Im having problems with hackers. I know WHY im being hacked but I was just wondering if someone out there on this beautiful site might be able to help me figure out A) HOW im being hacked and B) What I can do to protect myself. I can give you some info about my situation. Basically Im being hacked because I visit a sports stream site to watch and bet on sports. I have a pretty good understanding how the betting market works and I try use it to make money. Ive been talking a lot of shit on chat and now i realize that the mods in chat will hack you to try to stop you from spreading information about how betting works. The extent of the hacking is that they hacked into my phone and my instagram and now they can see everything I do on there which I would have rather have been private but now its not. Also they seem to be able to know everything I do on the internet almost as if they can see my screen. Please help! What should I do???",1,SteakNo6164,2023-12-02 04:31:22
+a3oicn,2018-12-06 14:44:57,kbx0tlj,Do you think learning through Tryhackme or hackthebox helps one prepare for the CTFs?,1,iamasif93,2023-12-04 04:57:45
+a3oicn,2018-12-06 14:44:57,kc44bk3,Or just use https://trickest.com. NahamSec just joined them as an advisor.,1,AdrianaPago,2023-12-05 17:27:28
+a3oicn,2018-12-06 14:44:57,kd1mz11,https://insectechs.in/skills-required-to-become-professional-penetration-tester/,1,shasikitu,2023-12-12 15:11:05
+a3oicn,2018-12-06 14:44:57,keufsyi,please can anyone tell me how to make jammer out of esp 8266 for my project,1,Ok-Bathroom337,2023-12-25 08:49:49
+a3oicn,2018-12-06 14:44:57,kewy93i,"Random question. If I have two vouchers and I want to discover the pattern that is being used to create them. What would be a good starting point? I have taken some cyptography courses in the past so I was thinking something to do with Modulos and such.   
+
+
+They are 977931 and 241617",1,NotAThursdayWidow,2023-12-25 22:38:21
+a3oicn,2018-12-06 14:44:57,kg3zj1i,I'm looking for a hacker to help me work,1,Medium_Ad_5,2024-01-03 10:44:03
+a3oicn,2018-12-06 14:44:57,kghqoq2,Love the guide!!,1,cyberforce218,2024-01-05 21:32:14
+a3oicn,2018-12-06 14:44:57,kglxk90,Hello,1,InternationalTip3863,2024-01-06 17:39:37
+a3oicn,2018-12-06 14:44:57,kgmrwp3,"See my post here: [https://www.reddit.com/r/illegallifeprotips2/comments/18z41ex/how\_to\_make\_a\_fake\_id\_to\_get\_my\_money\_back\_from/?utm\_source=share&utm\_medium=web2x&context=3](https://www.reddit.com/r/illegallifeprotips2/comments/18z41ex/how_to_make_a_fake_id_to_get_my_money_back_from/?utm_source=share&utm_medium=web2x&context=3)
+
+  
+At this point I need to learn how to hack into my own account. There is no other way aside from literally creating a fake id.",1,Legend27893,2024-01-06 20:40:46
+a3oicn,2018-12-06 14:44:57,kh12y8r,"Great knowledge base, useful post thank you !!",1,freelabz,2024-01-09 09:18:30
+a3oicn,2018-12-06 14:44:57,ki3krnv,[removed],1,,2024-01-16 08:30:00
+a3oicn,2018-12-06 14:44:57,kjjz0ll,"I think they're both necessary if you want to be a 'real' hacker. one of the most common programmer ideology is to 'not reinvent the wheel' i.e. - if there are tools that do it for you, you better use them. understanding the intricities of cyber-security helps you become better, create custom code patches and customize the tools you're using, but you'll still be using those.
+
+I am not an expert level hacker or anything, but of course I plan to learn both. it is valuable information.",1,LeftCarrot2959,2024-01-25 20:21:23
+a3oicn,2018-12-06 14:44:57,kods9u3,"Thank you for this , for real , I’ve been interested in this for a long time but have been iffy about whether or not I should look for info. Literally typed in I want to learn ethical hacking, how do I do it Reddit and this is the first thing that popped up. You’re a saint sir ( or madam , or whoever/whatever you identify as, respectfully 🙏🏾 ), and a scholar .",1,Business-Income4149,2024-02-01 03:01:26
+a3oicn,2018-12-06 14:44:57,koelhvc,Thanks for the hacking guide!,1,DizzyAd2152,2024-02-01 07:12:09
+a3oicn,2018-12-06 14:44:57,kp0kwi0,"Starts from absolute basic definitions and has a free certification attached:  
+[https://www.darkrelay.com/challenge-page/cybersecurity](https://www.darkrelay.com/challenge-page/cybersecurity)",1,Altrntiv-to-security,2024-02-05 12:21:23
+a3oicn,2018-12-06 14:44:57,kprm5nn,Premade tools brings back memories of sub7 back in AOL days,1,Streakin_X,2024-02-10 10:42:26
+a3oicn,2018-12-06 14:44:57,krtayf6,"Hey man, can you start on your cell phone? Unfortunately I don't have a computer :/",1,alucard_br5,2024-02-23 19:54:46
+a3oicn,2018-12-06 14:44:57,eb7vdy3,Agreed ,235,xTheReaper,2018-12-06 15:40:36
+a3oicn,2018-12-06 14:44:57,eb7yphz,"Yea, this definitely needs to be a sticky. Well said u/slicklibro ; I'm also impressed you managed to restrain yourself from saying script kitties while explaining what they are lol.",159,Box-o-bees,2018-12-06 16:18:58
+a3oicn,2018-12-06 14:44:57,eb8qjtg,Done :),104,minimize,2018-12-06 21:26:19
+a3oicn,2018-12-06 14:44:57,eb8xsbr,"Not that it WOULD reduce 50% of the posts here. But it absolutely could and should.
+
++1 to stikyifying ",20,,2018-12-06 22:40:29
+a3oicn,2018-12-06 14:44:57,ee5zv09,Yes!!,1,,2019-01-16 02:09:19
+a3oicn,2018-12-06 14:44:57,egt32g3,Yep,1,ComicCityy,2019-02-19 15:49:34
+a3oicn,2018-12-06 14:44:57,kyt8hor,Thanks for all the info,1,Wrong_Move8806,2024-04-09 19:13:37
+a3oicn,2018-12-06 14:44:57,i09zy67,Circles #5 strongly agree,1,janinemay1,2022-03-11 19:19:00
+a3oicn,2018-12-06 14:44:57,iab0ca2,"I came this close to posting ""how do I start?"" before looking at the front page.",1,pftftftftftf,2022-05-28 12:19:41
+a3oicn,2018-12-06 14:44:57,ibk8a2h,You don’t want every guy who has a tale tale heart cypher around “tile” being the same as “saw bones” sucks man. Not spam,1,EconomyCauliflower24,2022-06-08 02:15:16
+a3oicn,2018-12-06 14:44:57,izim9sl,"Yep, sorry for replying after 4 yrs lol",1,Viktor_Reznov3093,2022-12-09 11:23:37
+a3oicn,2018-12-06 14:44:57,k1bcb7k,[removed],1,,2023-09-19 19:18:06
+a3oicn,2018-12-06 14:44:57,ebdeeww,"This is one of the biggest problems with these ""ultimate guides"". They provide some great resources, but these CTF resources are good for understanding how to do very specific things in very specific situations.
+
+It's important for people to be able to take the knowledge they learn from the challenges and expand them to use them in real world/other scenarios. And without knowing the fundamentals, that is just not possible.",109,loyalsif,2018-12-08 18:41:23
+a3oicn,2018-12-06 14:44:57,eb92fp9,"This resonates a little too hard for me, stop it.",10,Ridonk942,2018-12-06 23:31:56
+a3oicn,2018-12-06 14:44:57,eb9pk9c,"If am half-way done Software Engineer  degree do you think it will be good to start doing simple/beginner CTFs and from there start reading a researching the concepts needed to resolve the challenge.  
+
+Also any resources you recommend for learning the fundamentals?
+
+&#x200B;
+
+Thanks in Advance! :)",7,alelopezperez,2018-12-07 04:49:44
+a3oicn,2018-12-06 14:44:57,ecwww1i,"I suggest the opposite might be worse, and I can say that because I describes me.  I am CEH (Certified Ethical Hacker) and CISM (Certified Information Security Manager) so I understand the thing but feel my weakness lies in being able to do the thing.  I mean I am not completely helpless but man there is so much I just still need to learn on the red team side.  And this is after 25 years in computer and network support.",3,,2018-12-31 01:29:53
+a3oicn,2018-12-06 14:44:57,edi6bh1,"So based on this post, what would you say is the best way to go about learning this all? I’ve always been fascinated with computers and tinkering with them, but “hacking” has always carried a taboo of sorts around it and only now am I seeing that people view it as a tool to combat those who would use it in a negative way, and I’d love to learn from the ground up. ",4,teddybearcommander,2019-01-07 20:44:15
+a3oicn,2018-12-06 14:44:57,ecxktvd,Yes. I wish someone could tell me how to do that.,1,Ryzexen,2018-12-31 07:38:21
+a3oicn,2018-12-06 14:44:57,i5osrge,Literally me hahaha,1,mona1054,2022-04-22 00:34:27
+a3oicn,2018-12-06 14:44:57,krgwr64,"Basically with you on that. Im going the certification route so im very VERY new to this. I watched videos, read a bunch but didnt make any sense until i finally got a couple linux machines to get nmap going at least and experience how to install/uninstall in that environment.  I tried to do aircrack from windows when in class and just an embarrassing fail. It just makes more sense to get your hands on a linux machine or VM. I had to go with physical machines since i couldnt get virtual box to work on my windows to save my life",1,sewcrazy4cats,2024-02-21 16:34:47
+a3oicn,2018-12-06 14:44:57,eb9h8pe,Same here! ,25,Every1PlzBeQuiet,2018-12-07 02:50:48
+a3oicn,2018-12-06 14:44:57,ebjswtx,Same here.  I was expecting to see this type of post and  I am hopeful that this shared format of information continues.  This is exactly the reason why I continued to return because of the promises to turn this sub into exactly what you have done.  A resource and learning center.  Now I just have to figure out WTH you just said and I thank you for that!!!,23,CrapScott,2018-12-11 06:53:47
+a3oicn,2018-12-06 14:44:57,eg28wax,I subbed yesterday. Thanks for saving me months of being a skiddo. Not canceling mask order. ,14,VVAR_Aarius,2019-02-09 01:55:45
+a3oicn,2018-12-06 14:44:57,iht9tgq,Kinda same!,1,Bcon0108,2022-07-27 04:39:02
+a3oicn,2018-12-06 14:44:57,jthc7jd,Really? Are you into hacking,1,Fine_Progress_7654,2023-07-26 04:20:19
+a3oicn,2018-12-06 14:44:57,efuxgax,You hit the nail on the head. ,10,iob_j,2019-02-06 08:40:58
+a3oicn,2018-12-06 14:44:57,j5fmis8,How does memorizing the 4 and 7 layers help anyone hack?,2,eliteHaxxxor,2023-01-22 17:50:20
+a3oicn,2018-12-06 14:44:57,icsgzfi,If you can a CISCO course is the go to IMO,1,MOXPEARL25,2022-06-18 02:42:26
+a3oicn,2018-12-06 14:44:57,ii8ie6e,I couldn't agree more honestly.😁 learning the fundamentals is helping me a lot and make CTF's a lot more fun.,1,Justcoastinnn,2022-07-30 08:26:54
+a3oicn,2018-12-06 14:44:57,ebdpi1r,[deleted],7,,2018-12-08 21:02:14
+a3oicn,2018-12-06 14:44:57,ejdd4fn,">[deleted]
+
+Hmmmm",1,bootlegbillyboy,2019-03-25 21:44:23
+a3oicn,2018-12-06 14:44:57,ed7g2ki,"But isn't it tool driven (mostly) ? I can sum up most with nmap , metasploit , burp etc etc ",4,,2019-01-04 05:55:52
+a3oicn,2018-12-06 14:44:57,eb95elg,"Yes, I certainly agree. The idea was that through a simple CTF they would eventually be forced to read up and learn the fundamentals before continuing. If you do read up without doing CTFs you probably won't be able to find many vulnerabilities, but you will most definitely know enough to be able to keep your networks & computers constantly patched and up to date.",16,SlickLibro,2018-12-07 00:08:26
+a3oicn,2018-12-06 14:44:57,edxt6hm,"Are there any e-books or online articles to begin with? I know there must be some books in my country but there aint many as in onther countries,so If someone could suggest me something I can read on the internet.",3,ninappv,2019-01-13 00:58:16
+a3oicn,2018-12-06 14:44:57,j7eqfri,"Haha “too late”! I’m 50+ and starting, keep the dream alive, and you’re never too old!",1,,2023-02-06 06:33:15
+a3oicn,2018-12-06 14:44:57,k7qhyu1,Have you started ethical hacking?? I can't find any companies that can hack my old cell phone and I desperately need files and screenshots of proof of a crime against me by a family member the screen is broke..I also am trying to find out what launcher app the u46 always finish launcher i. Fiance phone is and how to open it and see what he possibly is hiding,1,No_Extreme727,2023-11-04 01:50:29
+a3oicn,2018-12-06 14:44:57,kbn61rd,[deleted],2,,2023-12-02 04:09:23
+a3oicn,2018-12-06 14:44:57,kuybn4r,"Hi sorry to hijack but I can't post this
+
+# So, is there a field in hacking that is okay for beginners (I have delved in hacking for years now but still hasn't deep dived to the point that I can have a career with it) that I can do as a freelancer? So I am interested in OSINT but I need VPN which I cannot afford, and also interested in bug bounty in hopes that it could change my life because I live in thirdworld hellhole so the exchange is bigger (but haven't gone deep to it as well). Could someone help me which path to take? Like is there something for me in hacking? I really wanna move on from the idea of it (because I feel like I am not smart enough for it), but I still keep coming back to it. Is there a way for me to get hired without spending anything learning about hacking? Help a human out, thanks!",1,Think_Bar1872,2024-03-15 05:43:18
+a3oicn,2018-12-06 14:44:57,eb92maj,"A great question. Once you have gained enough knowledge to be able to find modern-day exploits, you may go out on the internet and look for active vulnerabilities. By finding one, and by disclosing it responsibly, you are essentially closing off an entryway to destruction. If the vulnerability is serious enough you may submit and gain a CVE (which stands for common vulnerabilities and exposures [https://cve.mitre.org/](https://cve.mitre.org/)) under your name, which is a rather grand achievement in itself. This is what one would call 'gray hat hacking'.
+
+&#x200B;
+
+However, this is not the only option. The knowledge you gain from just competing and learning about CTFs may be used in building solid network structures for companies, organisations, and governments. A more far-fetched idea would be thinking about the future of space exploration. Imagine being granted the job of engineering a space rocket's internet.
+
+You may also create open-source security packages to patch systems and networks. You may also completely deviate away from security to use your knowledge in software engineering and entrepreneurship, to deploy your own business from the technical knowledge you've learned.
+
+The number of possibilities is endless, as CTF is only a gateway into the realm of computing & programming. So essentially just dig deep and explore - your knowledge will take you on it's own journey.",28,SlickLibro,2018-12-06 23:34:10
+a3oicn,2018-12-06 14:44:57,eb8c7a8,The one that’s flagged ,12,Chris5369,2018-12-06 18:49:57
+a3oicn,2018-12-06 14:44:57,eb9jq9r,"Can't believe I forgot about this, adding it now. Thanks.",4,SlickLibro,2018-12-07 03:25:30
+a3oicn,2018-12-06 14:44:57,eb9vt52,"HTB is very good, but it provides the trap of directing many newcomers towards the tool-oriented boxes, leaving them blind to much needed low-level fundamentals. Too many people that have googled their way through the invite code and subsequently through HTB. Their CTF style challenges are excellent, but they are somewhat hidden away under an unremarkable tab. The main reason it didn’t quite make the cut is that it isn’t exactly the best place to start learning (hence the presence of an invite code). 
+
+The other sites however, somewhat force you to learn essential fundamentals before you would even have a chance at attempting a respectable challenge, making you understand the full picture instead of providing a quick shortcut. I may very well add it under a few words of precaution for newcomers.",8,SlickLibro,2018-12-07 06:46:58
+a3oicn,2018-12-06 14:44:57,kfqpbje,"Been 5 years, Well how did that go?",1,Jama31,2023-12-31 20:07:38
+a3oicn,2018-12-06 14:44:57,j1qprl8,>00110100 01000101 00100000 00110110 01000110 00100000 00110010 00110000 00100000 00110011 01000001 00100000 00110011 00110011,1,DragonLort,2022-12-26 17:21:54
+a3oicn,2018-12-06 14:44:57,jusyidr,I don't see how this is supposed to keep your message anonymous...,1,,2023-08-04 19:45:53
+a3oicn,2018-12-06 14:44:57,jusym57,The most you can do afaik is looking up the country code,2,,2023-08-04 19:46:32
+a3oicn,2018-12-06 14:44:57,ebef4ox,"I recommend going through these first if you are struggling -
+
+[Binary Hacking Playlist - by liveoverflow](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN) \- this series first.
+
+[Web Security Series - by liveoverflow](https://www.youtube.com/watch?v=jmgsgjPn1vs&list=PLhixgUqwRTjx2BmNF5-GddyqZcizwLLGP) \- this one after.
+
+liveoverflow is very good as he teaches you the fundamentals before he starts showing challenges. You may need to watch some of his more difficult videos (especially the ones when he starts touching on assembly) a few times before you start to grasp a full picture, as he goes through each topic somewhat quickly and relatively concisely. I wish you good luck.",6,SlickLibro,2018-12-09 02:36:48
+a3oicn,2018-12-06 14:44:57,eiidz3z,"So, you're just starting off? I envy you, you have a whole new world you're about to discover. First things first, look into certifications, even if you have no plans on getting any. Certs outline and test your knowledge of a given subject and show you are proficient in it. Since you mentioned networking basics, I suggest looking into network + from comptia, it goes over the basics. From there, research other certs and things of interest. I don't have it with me, but if you look up comptia cert road map on Google, you'll find a list of paths you can follow and what certs to get.  Hopefully this will help you get started. ",2,,2019-03-14 14:12:19
+a3oicn,2018-12-06 14:44:57,hxvufzs,please before posting read the rules...,3,PrettyAd4671,2022-02-21 21:44:23
+a3oicn,2018-12-06 14:44:57,honb4oz,Hack instagram,2,Razeratorr,2021-12-15 14:26:54
+a3oicn,2018-12-06 14:44:57,i4ei6ml,Already hacked. Password is Cheese69 🤣,2,Shoddy-Gas3139,2022-04-12 08:13:04
+a3oicn,2018-12-06 14:44:57,iap4w09,It’s a hacker platform for learning hacking and testing your skills by doing CTF’s (capture the flag). CTF’s are a great way to learn the tradecraft. I highly recommend learning a programming language side by side as you walk the road.,3,,2022-05-31 19:29:37
+a3oicn,2018-12-06 14:44:57,iap1kff,"What's that site about? Exploring bugs? 
+
+I'm new to this, still have lot to learn😅",1,Lazy_Mind0232,2022-05-31 18:55:29
+a3oicn,2018-12-06 14:44:57,k6it0w9,"i would recommend videos by people like [Network Chuck](https://youtube.com/@NetworkChuck?si=zCdvuS_klVah84rm) or [Loi Liang Yang](https://www.youtube.com/@LoiLiangYang) as they have little videos dedicated to certain hacks. although im biased towards web hacking i would recommend Network Chucks sql injection video, very simple, very easy, and you get to see your hack actually work!",1,w0o0rm,2023-10-26 11:05:20
+a3oicn,2018-12-06 14:44:57,ki994at,replying to save,1,No_Connection9045,2024-01-17 09:02:51
+a3oicn,2018-12-06 14:44:57,eb9hbni,"**Defaulted to one day.**
+
+I will be messaging you on [**2018-12-08 02:51:52 UTC**](http://www.wolframalpha.com/input/?i=2018-12-08 02:51:52 UTC To Local Time) to remind you of [**this link.**](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/)
+
+[**CLICK THIS LINK**](http://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=[https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/]%0A%0ARemindMe! ) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](http://np.reddit.com/message/compose/?to=RemindMeBot&subject=Delete Comment&message=Delete! eb9hbni)
+
+_____
+
+|[^(FAQs)](http://np.reddit.com/r/RemindMeBot/comments/24duzp/remindmebot_info/)|[^(Custom)](http://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=[LINK INSIDE SQUARE BRACKETS else default to FAQs]%0A%0ANOTE: Don't forget to add the time options after the command.%0A%0ARemindMe!)|[^(Your Reminders)](http://np.reddit.com/message/compose/?to=RemindMeBot&subject=List Of Reminders&message=MyReminders!)|[^(Feedback)](http://np.reddit.com/message/compose/?to=RemindMeBotWrangler&subject=Feedback)|[^(Code)](https://github.com/SIlver--/remindmebot-reddit)|[^(Browser Extensions)](https://np.reddit.com/r/RemindMeBot/comments/4kldad/remindmebot_extensions/)
+|-|-|-|-|-|-|",2,RemindMeBot,2018-12-07 02:51:55
+a3oicn,2018-12-06 14:44:57,eiu2y1c,"For your information , there's something called bookmarking",4,ilijair02,2019-03-18 22:29:13
+a3oicn,2018-12-06 14:44:57,j1qq1gc,"nope fully legal otherwise how sould you be able todo your job as a pentester in the praxis?
+
+&#x200B;
+
+if you got a allowence for it you can do it",1,DragonLort,2022-12-26 17:23:54
+a3oicn,2018-12-06 14:44:57,ib10l2z,Oo which program lol,1,Krypto-Coder,2022-06-03 12:10:53
+a3oicn,2018-12-06 14:44:57,j1qqefm,"if you do it right sure nothing will happen
+
+just do it right!",1,DragonLort,2022-12-26 17:26:30
+a3oicn,2018-12-06 14:44:57,j1qqj5m,"root the device and you can ""kinda"" do stuff like in there but it will take more time and effort then in the game",1,DragonLort,2022-12-26 17:27:27
+a3oicn,2018-12-06 14:44:57,ef3cbgf,Isn't it?? ,1,missAHKFF4200,2019-01-27 11:45:09
+a3oicn,2018-12-06 14:44:57,j1qqplv,"because you dont need it normaly if you a white head xd  
+and didnt you learn in your freetime aswell stuff about the cybersecurity world?",1,DragonLort,2022-12-26 17:28:47
+a3oicn,2018-12-06 14:44:57,eiiid6a,It's sad how many people don't know the original definition of hacker. Now a days people hear hacker and think of criminals. Im glad to hear there are others still out there who know the truth. ,1,,2019-03-14 15:02:55
+a3oicn,2018-12-06 14:44:57,eiii1hq,"Look into comptia certifications for basics. Even if you don't want the cert, grabbing a prep book or something for like the A+, network +, and/or security + will help you learn the bare basics.",1,,2019-03-14 14:59:16
+a3oicn,2018-12-06 14:44:57,hhsf4kw,I need something similar done. They stole something more valuable than money from me.,1,ebay090911,2021-10-23 21:59:18
+a3oicn,2018-12-06 14:44:57,ep7ndz4,Please use the `save` feature or bookmark the page rather than adding valueless comment spam.,1,misconfig_exe,2019-05-28 22:53:10
+a3oicn,2018-12-06 14:44:57,if6i7p4,You’re better than that bro,1,LordInFamous91,2022-07-07 07:34:05
+a3oicn,2018-12-06 14:44:57,ifc8aio,? No lol. This is a guide on learning infosec and hacking. There's a whole section that goes over skids too.,1,HashHydra404,2022-07-08 13:08:18
+a3oicn,2018-12-06 14:44:57,iimfqnu,Is on my favorites bar now :D,1,PesteBrankkkj,2022-08-02 09:37:04
+a3oicn,2018-12-06 14:44:57,ild6i88,They can be. Generally no.,2,Shockorama,2022-08-22 20:10:03
+a3oicn,2018-12-06 14:44:57,ild6fxj,Hit the report button.,1,Shockorama,2022-08-22 20:09:35
+a3oicn,2018-12-06 14:44:57,imx4gaf,"Please take this with a grain of salt since I’m just starting too. There seems to be a decent amount of pentest jobs available right now and the predictions I read said the outlook was good for the future too. That said, even if you don’t go into that specific sub-field I’d think that having that knowledge would make you better at other sub-fields, i.e. knowing how people break in would help you secure a network from the inside.",1,Shatterstar23,2022-09-03 12:42:05
+a3oicn,2018-12-06 14:44:57,ivys98t,"Rule 1, 2, 8, and 9",1,InfosecMod,2022-11-11 16:51:14
+a3oicn,2018-12-06 14:44:57,ixii0yk,I can't post this. so Im just commenting,1,modern_enthusiast,2022-11-23 18:16:00
+a3oicn,2018-12-06 14:44:57,jc7jnn8,"I will be messaging you in 7 days on [**2023-03-21 16:47:29 UTC**](http://www.wolframalpha.com/input/?i=2023-03-21%2016:47:29%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/jc7jj7h/?context=3)
+
+[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Fhacking%2Fcomments%2Fa3oicn%2Fhow_to_start_hacking_the_ultimate_two_path_guide%2Fjc7jj7h%2F%5D%0A%0ARemindMe%21%202023-03-21%2016%3A47%3A29%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%20a3oicn)
+
+*****
+
+|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|",1,RemindMeBot,2023-03-14 16:48:15
+a3oicn,2018-12-06 14:44:57,jutak51,"I can't get into it, it's blurred",1,,2023-08-04 21:02:26
+a3oicn,2018-12-06 14:44:57,jkxresp,"I'm really sorry about replying to this so late. There's a [detailed post about why I did here](https://www.reddit.com/r/RemindMeBot/comments/13jostq/remindmebot_is_now_replying_to_comments_again/).
+
+I will be messaging you in 7 days on [**2023-05-27 03:11:28 UTC**](http://www.wolframalpha.com/input/?i=2023-05-27%2003:11:28%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/jkuze3a/?context=3)
+
+[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Fhacking%2Fcomments%2Fa3oicn%2Fhow_to_start_hacking_the_ultimate_two_path_guide%2Fjkuze3a%2F%5D%0A%0ARemindMe%21%202023-05-27%2003%3A11%3A28%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%20a3oicn)
+
+*****
+
+|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|",1,RemindMeBot,2023-05-20 19:04:15
+a3oicn,2018-12-06 14:44:57,jm8wiyv,I use a 2015 Macbook Pro with my own distro on it. You should be fine with that.,1,Machinica,2023-05-30 20:11:41
+a3oicn,2018-12-06 14:44:57,ju57po1,"you said it was your girlfriend in r/ethicalhacking
+
+we are not your personal army, nor does ""hacking"" work how you think it does
+
+you got called out and deleted your post there, so maybe do it here too",0,boxette,2023-07-31 00:58:59
+a3oicn,2018-12-06 14:44:57,k1zou7d,hereira,1,Fickle-Speaker8516,2023-09-24 13:45:11
+a3oicn,2018-12-06 14:44:57,kbx0zsj,I am thinking of getting a subscription. Which one between the two is better in your opinion?,1,iamasif93,2023-12-04 04:59:19
+a3oicn,2018-12-06 14:44:57,ki3kwuh,I would like to ask as well lol.,2,zxylovelm,2024-01-16 08:31:45
+a3oicn,2018-12-06 14:44:57,eefdng3,first step: download 13 billion emails and passwords [https://xss.is/threads/27333/](https://xss.is/threads/27333/) :D,272,xss_is,2019-01-19 09:31:21
+a3oicn,2018-12-06 14:44:57,k8i4ejx,Agreed,1,,2023-11-09 14:13:23
+a3oicn,2018-12-06 14:44:57,ed6aqsn,"> Kali Linux Copy Pasterino Skidder
+
+I'd much rather be a script kiddie than a Kali Linux Copy Pasterino Skidder lol",122,dkran,2019-01-03 20:41:09
+a3oicn,2018-12-06 14:44:57,eg6p3jd,I had the same thought reading this lol ,11,MrCleetus,2019-02-10 23:06:23
+a3oicn,2018-12-06 14:44:57,how813f,Definitely!,5,wesharethesamegoal,2021-12-17 08:31:16
+a3oicn,2018-12-06 14:44:57,ebeeg42,"I do understand what you are saying here, but I have to disagree with you on the point of not 'knowing the fundamentals'. CTF naturally forces you to learn the fundamentals in a very intense manner. There is no way you can progress through a CTF without understanding the 'big picture', and it most definitely does not teach you how to do very specific things in very specific situations.
+
+&#x200B;
+
+Take for example a simple case of any binary exploitation challenge - it requires you to disassemble the program in order to analyse the machine code - so that you can map out each and every individual function. You then use what you see to build a mental image of what you're dealing with, and then finally at that point do you consider your options for exploitation. In a matter of a few steps we've already covered learning the use unix commands, how a program is assembled in machine code, how to read the machine code itself, how the machine code interacts with the system's memory, and how to reverse-engineer such machine code into it's respective high-level language functions. Understand that CTF requires you to know the fundamentals/'big picture' as fluently as possible before you could even progress through the simplest of challenges.
+
+&#x200B;
+
+This example only covers one case, as CTF also expands out into forensics (stenography, data, & analysing network packets), web exploitation (which forces you to learn everything from js, html, php, common libraries, API's, to full stack web development), miscellaneous (which involves crucial scripting skills) and cryptography (for mathematics & encryption). In each and every single case you must understand fully what you are dealing with, or else you would be left lost with no direction.
+
+&#x200B;
+
+Through this knowledge alone one would eventually start seeing the intricacies of technology around us, and thus begin to see how they can apply their knowledge for use in real-world situations. The point of CTF may be directed towards exploitation, but there is any underlying set of fundamentals you must learn & apply if you want any chance of success - and this learned knowledge alone should be more than enough to use in real world scenarios.",92,SlickLibro,2018-12-09 02:27:14
+a3oicn,2018-12-06 14:44:57,ebdiid4,"Totally agree - you get someone who can run SQLMap or BurpSuite great but they don’t know basic ports, the OSI model or don’t have a game plan in that real world scenario (recon, mapping, discovery, exploitation). ",2,Nau71lus,2018-12-08 19:33:11
+a3oicn,2018-12-06 14:44:57,inyt78z,I totally agree. I started out with a mess of things. Got a little overwhelmed and decided to just start with network intrusion.,1,polybius_Kai,2022-09-11 09:20:30
+a3oicn,2018-12-06 14:44:57,eb9sqbx,"I think there’s no wrong way into InfoSec, it just depends on the person. If you want to do practical stuff first then go ahead - I think learning what tools are doing/what you’re doing will improve your offense or defense in the long run. 
+
+Check out the humble bundle that was posted somewhere. There’s some really good stuff in there, but just googling basic ports, the seven layers, and networking fundamentals will get you on the right track. 
+
+If you find yourself asking “what does that do” or researching more than you’re learning - then you’re heading in the right direction. 
+
+Something I do in my InfoSec club is do a walkthrough of a CTF, and then give people a similar one to do themselves with aid when needed. Try something like that (: ",3,Nau71lus,2018-12-07 05:41:32
+a3oicn,2018-12-06 14:44:57,ehrxmno,Yes I am new and would love to get learning as I had no idea at all where to start. I guess I just have to decode about half of what you said and then maybe I can get somewhere.,8,Cyber_Avenger,2019-03-04 16:40:55
+a3oicn,2018-12-06 14:44:57,eg3hve6,"On the “easy” boxes it is.  The “brainfuck” boxes generally include rewriting a tool or exploit or writing your own custom one.  I haven’t personally popped one of these boxes, but the forums make it sounds like there a good bit of custom work to be done.  ",5,anononabus,2019-02-09 16:41:43
+a3oicn,2018-12-06 14:44:57,kbzymgo,">Np, You're very welcome!🥰💗",3,AdventurousDegree508,2023-12-04 20:11:37
+a3oicn,2018-12-06 14:44:57,ec5bmgn,You are magnificent ,5,FufuGretzky,2018-12-20 00:05:10
+a3oicn,2018-12-06 14:44:57,kxy8ggf,"Lmao not good. Figured out slaving away looking at a computer screen is not for me, im a structural engineer now 😂 
+
+Im surprised you found this comment lol i dont even remember making that",2,dankdoge9560,2024-04-04 01:48:29
+a3oicn,2018-12-06 14:44:57,eikmybu,"Thank you for your help, much appreciated!!",1,lzy917,2019-03-15 07:14:01
+a3oicn,2018-12-06 14:44:57,hxywjbu,"KAREN, THIS POST IS 3 MONTH OLD",1,armored103,2022-02-22 14:52:00
+a3oicn,2018-12-06 14:44:57,i4h54e8,Impossible!,1,Password_is_Cheese69,2022-04-12 20:25:38
+a3oicn,2018-12-06 14:44:57,iarov0c,Alright got it👍,2,Lazy_Mind0232,2022-06-01 09:58:23
+a3oicn,2018-12-06 14:44:57,j1qqazl,"he could has used airgeddon² or aircrack-ng  
+² = its a framework based on aircrack-ng",1,DragonLort,2022-12-26 17:25:49
+a3oicn,2018-12-06 14:44:57,ild6t5k,so people participate just for fun I guess,1,shindigin,2022-08-22 20:12:01
+a3oicn,2018-12-06 14:44:57,ju57ymd,Well my post worked & I have the help I need. Peace,1,Reasonable_Ball_6398,2023-07-31 01:01:01
+a3oicn,2018-12-06 14:44:57,kc06ax3,Hackthebox 100%,2,Kiing030,2023-12-04 20:58:03
+a3oicn,2018-12-06 14:44:57,hz44d4s,Link down ☹️. (Lol sorry for late comment),52,Awsomedude0361,2022-03-02 23:22:43
+a3oicn,2018-12-06 14:44:57,iesouc9,I can't this could be a hack,34,soiminreddit,2022-07-04 08:31:48
+a3oicn,2018-12-06 14:44:57,i8tvxnk,Whats this?,3,gas_fee,2022-05-16 15:29:00
+a3oicn,2018-12-06 14:44:57,imip3e3,Not so useful nowadays with the 2fa but the password list makes a nice credentials staffing,3,parrot-clan,2022-08-31 13:25:02
+a3oicn,2018-12-06 14:44:57,juqt5aj,"опа, родная гавань",1,whwamq,2023-08-04 10:49:18
+a3oicn,2018-12-06 14:44:57,ehgwp2u,I started on Kali but now I've moved to Debian and learning the hard stuff. ,47,Valerius01,2019-02-28 12:21:18
+a3oicn,2018-12-06 14:44:57,efsygsh,"Lol! You're a Kali Linux Copy Pasterino Skidder  
+I'm one too though...",4,Xaunqeon,2019-02-05 16:29:41
+a3oicn,2018-12-06 14:44:57,egxib3j,"I myself was not a fan of the CTF approach and did the long term studying/theory approach.
+
+I had a security class with who at the time seemed like the devil himself who liked  CTFs and made use do them for labwork; it's the ""throw em in the water drown or swim"" situation for learning hacking. It was a sentiment that teacher had and  boy did I drown a lot. 
+
+I admire it for being the ""quick and dirty"" way to force you to learn a lot in a short amount of time, but I did not retain nearly as much as I would have if I had a better understanding of certain computer fundamentals related to OS features and Networking (TCP/IP). The CTFs forced me to know enough to pass the challenge, I wasn't learning how to think or how to do research as if I was really building an attack vector or trying to come up with an exploit akin to what security researchers or some pen testers might do while under contract with a scope of devices that may be limited or obscure. Most of what I learned in his class I had to revisit to retain it despite the harsh introduction to those concepts CTFs provide.
+
+I respect OP's post whole-hardheartedly considering I have not seen a post assembled so well as he did it, but there's a certain ""discipline"" i think you find in having to comb through the boring stuff including the fundamentals that will make CTFs easier and more exciting when the person doing it understands what they're doing. As others said, CTFs vary so much; if someone does not diversify themselves in their CTFs they would fall into a niche or one type of hacking. Its not necessarily bad, but I feel like it limits your prospects.
+
+&#x200B;
+
+ Sometimes the boring theory over a period of time builds a bank of knowledge where you can know where to look for certain things despite the limited basic knowledge. Like that scary professor used to tell me:
+
+""information security is a mile wide and an inch deep""
+
+ you have to know a little bit of everything to *start,* not necessarily have the outcome ready and at hand. That does come with the practice of multiple CTFs, but my concern is someone who finds they are good at say, website pen-testing based CTFs, might only continue this because they find the gratification in solving the challenges,and being right all the time, especially for new and younger individuals, not everyone likes to hack because they like computers or are nerds like you say, movies and the media made people like us for better or worse, the ""hip and cool"" guys to be right now.  They would lack that ""shallow ocean"" of starting material to even consider trying their hand at something else like memory analysis or reverse engineering. I think that would start to bite you in the butt if they start to do this (hacking and penetration testing) professionally. 
+
+&#x200B;
+
+Take someone like Samy Kamkar for instance: Starts off as a Programming prodigy, makes his own company and inadvertently creates a XSS javascript worm and gives him notoriety.  Starts off with just web based stuff. Regardless if you like the guy or not, he's a critical thinker; since then he's had a variety of projects and attacks with a whole breath of varied technologies from NFC to PHP backends or RFID. His most recent stuff involved applied and time tested network attacks like MITM to smart/connected cars. 
+
+What no one likes to acknowledge (or think about I should say) is the man like many other hackers and researchers comb over books and documentation and have to read and do ""boring"" research which might mean not being in front of a computer all the time. Hardware hacking is like a complete 360 from what he started off with, and certain exploits such as a MITM on a car comes from understanding of fundamentals and implementing it creatively. You wouldn't piece together different things like he would unless you understood the basics very well and was creative and experimented. The guy isn't a mastermind by any stretch, but he's one of those researchers that takes the wide limited knowledge approach and then forms a scope for further investigation and research. A CTF has an answer to it that is known to someone else, it may not be the best way to encourage creative thinking for the real application of hacking skills.
+
+&#x200B;
+
+TL;DR: Capture the Flags could form a gratification loop in new inexperienced hackers as compared to forcing newbies to learn a little bit about everything including the fundamentals, as the gratification/feedback loop they enter keeps them focused on CTFs they are ""good"" at and limits their prospects in other areas of hacking they may have not considered because they don't do research on CTF topics they are not good at. This limits the ability to think of creative solutions (like those needed for real world exploit development/hacking).  
+
+   
+
+&#x200B;
+
+&#x200B;",74,greengobblin911,2019-02-21 03:47:50
+a3oicn,2018-12-06 14:44:57,ebgyib6,"I suppose it depends on how you look at it.
+
+One one hand, CTFs do work as you've explained here, however because CTFs have a myriad of categories and challenges, you really end up putting yourself in specific situations for each challenge and then moving onto a completely separate situation and possibly forgetting the previous challenge.
+
+Working your way up through the fundamentals and then focusing on one aspect of InfoSec (binex, netsec, websec, etc) for a long time until you truly understand it, then moving onto another category allows you to build your understanding without drinking from the firehose of security by taking multiple categories of challenges at one time.
+
+Of course, CTFs/wargames are a great supplement for this type of learning. For example, if you are working on reverse engineering, [smashthestack.](https://smashthestack.io)org would be great to supplement readings of that type of subject to get practical experience.
+
+Of course, this is just my opinion from my experience in the field. In obtaining the OSCP/OSCE and real-world pentesting, I've found that building the fundamentals separately helps much more when turning them into security related concepts.",17,loyalsif,2018-12-10 02:04:20
+a3oicn,2018-12-06 14:44:57,eg294d0,"Thanks for the great post.
+
+Question: where’s the 1 place to start IYHO if you know nothing at all and want a focus / career in cyber security and practical application pentesting for personal SHTF prep.
+
+
+I have about 5 mins of script kiddo experience.
+
+I’m hardcore into learning Linux and command terminal via Mint for past month.
+
+I’ve made hello world a few times and have forgotten since.
+
+
+Seems a skill easier to learn in a group. I Def don’t have a mentor or any cool kids to hack with all day.",5,VVAR_Aarius,2019-02-09 01:58:59
+a3oicn,2018-12-06 14:44:57,eg1xy1d,"Im having trouble even getting started on CTF. the CTF 101 page....
+
+&#x200B;
+
+flag{} 
+
+?? 
+
+I am guessing not the best starting point",4,dillybarrs,2019-02-08 23:21:59
+a3oicn,2018-12-06 14:44:57,eejpy3y,"I see what you're trying to say here but I think that /u/Nau71lus raises a fair point.
+
+You're not wrong when you say that it's impossible to progress through a CTF without understanding the 'big picture', but then you're creating individuals who focus on one area in an almost zombie-like way until they move through to the next challenge. When I'm partaking in a CTF and I get the gist or understand that a challenge has to do with steg, cryptography, or even just exploiting the function of a web app  - I work in those areas until I accomplish the task and then move on. Yes, I learn a lot in the progress but I'm looking for something to accomplish the task at hand rather than learning the fundamentals as to how embedding data in an image works, or when the exploit was found, how it was leveraged and then reading or watching a PoC. 
+
+I suppose it really narrows down to who you are. He wasn't saying that this approach wouldn't work for everyone, but this approach might teach individuals bad habits, or the wrong things. You don't have to learn the fundamentals of an application to succeed in a CTF. I think you can look at those who've worked on Hack the Box machines and approach something like the OSCP which is less CTF-like and struggle since they don't understand some of the fundamentals. For example, it's far less likely you're going to face a steg challenge in the real world when attacking a machine or network. There are some fundamentals in CTF machines like using nmap or BurpSuite that are great for beginners to work with and understand, but using these tools on DVWA or Metasploitable would be far more beneficial for them as they could learn how to leverage, and then fix the vulnerability. 
+
+I do believe that CTFs may give beginners a sense of direction, but I think that if they only focus on the CTF approach they will miss many of the fundamentals that are needed to excel in this area. There are some scenarios where CTFs are incredible learning opportunities, but I've played and owned many machines where I understood all of the fundamentals and was simply just mislead because CTFs are less real world like and more of a ""game"" or ""challenge"". HTB is a great example in the challenge section where no source code is provided and you're almost expected to guess the vulnerability rather than use the data (like in a real world scenario) to find out which attack vector to exploit.",3,scriptalert1script,2019-01-20 17:20:01
+a3oicn,2018-12-06 14:44:57,i4wyr8n,Idk but cat and ls are important,1,Guilty-Guava-4229,2022-04-16 03:18:25
+a3oicn,2018-12-06 14:44:57,k6422t5,So….where are you at now in your journey? If you don’t mind me asking haha. I’m in a similar position you were 4 years ago. Learning some networking and programming at the moment so I can eventually get into ctfs and start scripting something useful.,1,BulkyFirefighter2130,2023-10-23 14:58:50
+a3oicn,2018-12-06 14:44:57,kegw7v9,🫶🏾🫂,1,Realpain01,2023-12-22 14:44:06
+a3oicn,2018-12-06 14:44:57,ky3cjod,"Lmao didn't think u would respond, As long as ur happy with ur current position that's what best for you, Good luck 
+
+  
+( Still can't believe u actually responded lmao )",2,Jama31,2024-04-04 23:30:16
+a3oicn,2018-12-06 14:44:57,ild7d8b,"Absolutely yes! If you’re entirely new to CTFs, ones like www.overthewire.org are free and beginner friendly.",2,Shockorama,2022-08-22 20:15:37
+a3oicn,2018-12-06 14:44:57,ild7nm1,Oops I thought you were asking if you COULD. Yeah the majority of CTFs are worked on by people for fun and to improve their skills.,2,Shockorama,2022-08-22 20:17:30
+a3oicn,2018-12-06 14:44:57,isby5qe,I clicked it on accident you think I got hacked?,7,,2022-10-14 20:04:50
+a3oicn,2018-12-06 14:44:57,jhdiaa7,maybe a browser with no javascript support can help,1,fat_fun_xox,2023-04-23 09:37:34
+a3oicn,2018-12-06 14:44:57,ie5z107,phishing,19,Financial_Deal_3011,2022-06-29 09:24:52
+a3oicn,2018-12-06 14:44:57,jp5jp9p,UFA is beatable although increasingly less so,1,spookCode,2023-06-22 22:54:40
+a3oicn,2018-12-06 14:44:57,kqwmko7,can u help with snapchat?,1,iyiko,2024-02-17 22:21:29
+a3oicn,2018-12-06 14:44:57,krgucgk,2fa isnt perfect ya know,1,sewcrazy4cats,2024-02-21 16:21:36
+a3oicn,2018-12-06 14:44:57,ehgxzlv,Debian will most likely prove to be much more manageable and stable system over the long term. You can still have all the hacking tools in the world. But you can also have debian's stability.,36,dkran,2019-02-28 12:45:33
+a3oicn,2018-12-06 14:44:57,ehh7ifv,"As someone who’s just started out in the cyber security world I’m currently using Kali to follow along through a course I’m taking. I’m liking it a lot so far, but it seems to be a bit frowned upon in this thread. Could you clue me in as to why that is?",29,ModelMissing,2019-02-28 15:03:21
+a3oicn,2018-12-06 14:44:57,jp5k2jj,I use Kali but considering a switch as my main OS (for my hacking dedicated laptop) I’ve been thinking about Qubes… also a form of arch Linux like Garuda (is that how you spell it?) but with black arch repos.. I can’t decide and so I’ve just been sticking to Kali. I have a whole new Terabyte SSD waiting for my decision lol,1,spookCode,2023-06-22 22:57:31
+a3oicn,2018-12-06 14:44:57,krgute6,Just got my first kali machine and have a pile of victim machines. What should i play with first?,1,sewcrazy4cats,2024-02-21 16:24:10
+a3oicn,2018-12-06 14:44:57,ej2qn9m,"I am thinking to give some time of life to hacking  , besides math and physics as a other thing of my life, but how should I learn basics other than Linux , should I start at all , will I have enough time if I give 2-3 hours in weekends or more is needed? I Am full to full newbie but I like computers",6,ConciousSource1,2019-03-21 22:28:17
+a3oicn,2018-12-06 14:44:57,i5asib5,"Hello. This was an extremely insightful post and I’m very grateful this is here. I’m currently going through frustration when it comes to cyber security. I don’t currently have any friends or family in the field, so as far as a reliable person I can go to for guidance is non existent at the moment. I have been attempting to self study for a while now and I enrolled in a lot of different online classes from Udemy that covers cyber security topics. The issue is it’s mostly geared towards Kali and it’s a tool based approach.
+
+“It doesn’t matter how it works, what’s important is that it does work.”
+
+This is how the classes feel to me and it’s irritating. For example, going through a section on metasploit, there is no detailed information as to why or how exploits work. It’s just that it does work, but if it doesn’t, oh well keep looking for one that does. This type of teaching leaves me feeling unfulfilled and that I didn’t learn anything. Almost like a restricted “one way path” type of approach. There is no out of the box thinking in these courses.
+
+I would really like to start exploring the fundamentals, but I have no idea where to start. The cyber security landscape can feel overwhelming to me at times. I have been considering my A+, Network+ and Security+. I’m not sure if this is a good place to start when it comes to the “boring” fundamentals, or if there are much better resources out there.
+
+Thank you",5,,2022-04-19 03:47:26
+a3oicn,2018-12-06 14:44:57,ecbu88k,"My problem with CTF as a method of ""learning to hack"" is that all of the steps you take are in service of finding a flag, and the timing aspect makes it less likely that what you are doing is going to end up in your long-term memory. For some individuals, like me, it can be kind of a poor substitute for learning. I definitely need to take some time to really learn the basics and get comfortable with linux and networking before I go back to attempting CTFs. For me, sitting down with books and tutorial videos is a good method, at least for where I am at right now. So I definitely agree with you in that regard. ",8,Necromancy4dummies,2018-12-22 16:53:02
+a3oicn,2018-12-06 14:44:57,eekisgt,"Agreed on working through the fundamentals but using CTFs as a supplement and a way to stay motivated. I’ve wondered about the fundamentals and what would be some good resources (e.g. books, video series, etc).  Would have suggestions on what the fundamentals are and any resources to study?
+
+I was thinking at least networking would be one to study a lot of. I did a lot of self-learning on topics and always felt drawn to liveoverflow and Eli the computer guy, both on YouTube. If I came across a topic in a CTF/war game, I would make a note of it and study it later, trying to figure out how it worked.  
+
+If you truly know how something works, you’ll be better at picking it apart and exploiting vulnerabilities I think. You can analyze it and come up with creative ways to bypass the security control. ",6,masterninja01,2019-01-20 21:41:34
+a3oicn,2018-12-06 14:44:57,jfwdejg,What books would you recommend?,1,,2023-04-12 00:08:17
+a3oicn,2018-12-06 14:44:57,kuq0pvb,You \*were\* in the same situation that I'm in right now. How far are you into cybersecurity now? Where did you start? I've always wanted to be an ethical hacker but I was too busy playing video games to really try and actually learn it. Now I'm almost 22 and I'm trying to get my life together. I want to try and get into cybersecurity / ethical hacking but I have no idea how long it will take or where to even start,1,-GkWolf-,2024-03-13 19:25:04
+a3oicn,2018-12-06 14:44:57,ky4g5p9,"Yea i was cleaning out my notifications and saw it. Pure coincidence coz i never clean out the notifications. 
+
+But yes life takes you down the path you least expect and it has a curious way of just working out if you just stick with it. 
+
+Take care brother ❤️",2,dankdoge9560,2024-04-05 04:03:00
+a3oicn,2018-12-06 14:44:57,ildafka,"will check it out, thanks",1,shindigin,2022-08-22 20:36:11
+a3oicn,2018-12-06 14:44:57,ildad7n,I'm in for fun too. Competing for money would've been more exciting though.,2,shindigin,2022-08-22 20:35:43
+a3oicn,2018-12-06 14:44:57,iscpmlh,Maybe what's inside of it?,6,soiminreddit,2022-10-14 23:20:32
+a3oicn,2018-12-06 14:44:57,jthbuwa,I guess… that link is down,1,Fine_Progress_7654,2023-07-26 04:16:59
+a3oicn,2018-12-06 14:44:57,enlrcva,hi i have to ask u something its not connected to this topic i want to ask u how can i find someones name just from pictures do u have a special tool or is there a way to do this,7,Kurencemoje,2019-05-15 12:06:01
+a3oicn,2018-12-06 14:44:57,ehhxxxa,In my personal opinion it's because alot of tools used in Kali are preloaded and there is extensive documentation too which means all you need to do is learn how to use the tool and not bother with the meat of it and what happens under the hood.  As a starting step I would recommend it and once you get good with time I would recommend a change. The 3rd paragraph in the post lays it out nicely. ,38,Valerius01,2019-02-28 19:43:11
+a3oicn,2018-12-06 14:44:57,hv1nj6a,"I'd say its like using a calculator when learning maths. When you first start out, you're learning sums and times tables, and using a calculator bypasses the whole point of what you're trying to learn. But then after a while you learn Zermelo–Fraenkel set theory and use the Peano Axioms to derive what arithmetic really IS, and then you can use a calculator as a shortcut because you fully understand what's going on ""under the hood"". So there's sort of two types of people using calculators, those doing it to ""cheat"" and those doing it as a shortcut for the otherwise tedious work of a greater problem. Kali is kind of the same way, and unfortunately there's a lot of people in the first group who think they're actually in the second group.",24,anarcho-onychophora,2022-01-31 21:13:42
+a3oicn,2018-12-06 14:44:57,eopa5y8,"Kali is good, people just associate it with skids. Just remember smart people don't do what they don't have to. IN OTHER WORDS YOU CAN BE A SKID IF YOU'RE STILL IN IT FOR THE PURSUIT OF KNOWLEDGE",9,KarmadaKiller,2019-05-25 04:29:43
+a3oicn,2018-12-06 14:44:57,izngzqb,Do you know how to hack now?,1,MaryamAhmed16,2022-12-10 12:30:32
+a3oicn,2018-12-06 14:44:57,ej7mpky,"The short answer would be to start reading and install a Linux distro. 
+
+I personally do not recommend Kali linux, especially if you are installing it to hardware, BUT there's a great no starch press book called "" Linux basics for hackers. It forces you to get involved in automating your system, learning terminal commands and writing some of your own tools and scripts. My only gripe is the author uses Kali Linux. It's not typical of a Linux distro but it is THE pen testing distro. He installs it in virtual box. The book is very good for learning Linux in general as well. I would use that and skip most other books. Kali Linux revealed by the company who maintains Kali also is good. 
+
+I would also recommend getting a tcp/ip reference book. Might be pricey but I prefer print copies. Anything with computers needs  reference material, especially when learning. It's impossible to memorize everything but as your hand gets better at hacking you will remember the most common things. 
+
+Another book I would recommend is called ""attacking network protocols"" by James forshaw. If you read this, then compare what you're confused with against a tcp/ip reference book, you will understand a lot more about what is going on. 
+
+This is why I was against using Kali, some people get tempted to use the tools right away but don't understand how it works. 
+
+If I could start learning over and cut out the trial and error and confusion of information, I would do this. ",40,greengobblin911,2019-03-23 18:28:12
+a3oicn,2018-12-06 14:44:57,inytsvl,"Have you tried learning Python? One of my favorite language to use with networking, cryptography, and more.",1,polybius_Kai,2022-09-11 09:29:00
+a3oicn,2018-12-06 14:44:57,jthgn1g,I think you need to start and 4-5 should be fair enough,1,Fine_Progress_7654,2023-07-26 05:04:28
+a3oicn,2018-12-06 14:44:57,kybpi93,"U to, 
+
+Take care :>",1,Jama31,2024-04-06 14:16:19
+a3oicn,2018-12-06 14:44:57,ildgp3z,There certainly are CTFs that offer monetary prizes (usually cryptocurrency). You should check out videos on large CTF competitions like Real World CTF and Google CTF on YouTube.,2,Shockorama,2022-08-22 21:18:13
+a3oicn,2018-12-06 14:44:57,j15986d,">https://xss.is/threads/27333/
+
+it's a Russian forum that hackers hang out in. The thread was probably a big dump of passwords that someone posted.",22,Ronmoz,2022-12-21 19:35:54
+a3oicn,2018-12-06 14:44:57,iscrnhw,It's in russian idk,1,,2022-10-14 23:36:30
+a3oicn,2018-12-06 14:44:57,enlrrtz,You can try image searches like tineye.com or Google image search.,14,dkran,2019-05-15 12:08:45
+a3oicn,2018-12-06 14:44:57,ehhzf0p,"Gotcha, that makes sense and thanks for the response. I’m definitely going to go deeper after I finish the course I’m taking now. I figure it’ll help me get used to the Linux environment/tools a bit more, and then I’m going to Cybrary to get a more well rounded understanding of things. ",23,ModelMissing,2019-02-28 19:58:13
+a3oicn,2018-12-06 14:44:57,j2t62ak,Would you get the same results?  Or does understanding what’s going on under the hood benefit your ability to hack.,1,Salty_Sky5744,2023-01-03 19:55:40
+a3oicn,2018-12-06 14:44:57,ej8my63,"Thank you , I will try to do as you say and possibly if you want keep informed of my progress only if you want,  Master",7,ConciousSource1,2019-03-24 02:11:41
+a3oicn,2018-12-06 14:44:57,i6wexlk,"Thanks for the tips! Will use them wisely... hopefully...
+
+Note: i *disapprove* of kali too.",1,TechWebSavvy,2022-05-01 12:52:57
+a3oicn,2018-12-06 14:44:57,kfdsks0,Just commenting so I can come back to this tomorrow.  Thanks!,1,Turtlem0de,2023-12-29 06:46:23
+a3oicn,2018-12-06 14:44:57,j16yzuk,Oh,7,soiminreddit,2022-12-22 02:59:26
+a3oicn,2018-12-06 14:44:57,iscsdg2,Ye say goodbye that's sus ngl,5,soiminreddit,2022-10-14 23:42:15
+a3oicn,2018-12-06 14:44:57,enlt47u,Yea but i want to find a person from instagrams picture and i cant download it and idk the name of that person only have the pic and i triend tineye but it show a screenshot i made and when i copy url it doesnt work..,8,Kurencemoje,2019-05-15 12:17:46
+a3oicn,2018-12-06 14:44:57,ehi5i1x,That is how I started too with Kali Back in 2015 after I got promoted to security administrator for our municipality. By late 2017 I had gone down the road less traveled and I am still going down that road. The joy and satisfaction you get once you get to know how things work under the hood is beyond words.  Keep the spirit and fire going!!! ,30,Valerius01,2019-02-28 21:01:53
+a3oicn,2018-12-06 14:44:57,ize1wvo,hello can you share a link to the course you’re reading.,1,Sampah_1213,2022-12-08 12:46:41
+a3oicn,2018-12-06 14:44:57,i29gwut,"Well, how did it go?",3,Reddit-username_here,2022-03-27 01:27:56
+a3oicn,2018-12-06 14:44:57,iev7ey1,">Master
+
+Do not worry fellow disciple, I am following this path and will make sure I become a master hacker. See you on the flip side",2,Tinyyygiant,2022-07-04 21:22:54
+a3oicn,2018-12-06 14:44:57,jozs9yq,Phishing ?,1,iamrifatahsan,2023-06-21 18:34:38
+a3oicn,2018-12-06 14:44:57,isctg17,Jk just wanted to see if anyone clicked it,1,,2022-10-14 23:50:46
+a3oicn,2018-12-06 14:44:57,k8i5jc2,"If the image is from a website somewhere, just crop the screenshot to only show the original picture of the person, nothing more/less, then upload to [images.google.com](https://images.google.com), or search for ""reverse image search"" and upload to one of the sites that comes up. 
+
+Just curious, why exactly do you need to do this? 🤣",1,,2023-11-09 14:21:17
+a3oicn,2018-12-06 14:44:57,ehi8wlq,"That’s awesome! I’ve been really enjoying things so far, and I’m just hungry for knowledge. The course I’m currently taking is a good intro, but I know once complete I’ll need to move on to something deeper. Have you used Cybrary as well? If so, what’s your experience been like with it?",9,ModelMissing,2019-02-28 21:46:45
+a3oicn,2018-12-06 14:44:57,i5fu85u,Maybe not so well ¯\_(ツ)_/¯,3,katencam,2022-04-20 03:59:59
+a3oicn,2018-12-06 14:44:57,i9eyic2,"Maybe if their Master asked, they'd answer",2,habitofwalking,2022-05-21 04:23:05
+a3oicn,2018-12-06 14:44:57,jxq2wgk,well do share with the class,1,sneakysquid102,2023-08-25 17:59:14
+a3oicn,2018-12-06 14:44:57,iscti0t,Ok,3,soiminreddit,2022-10-14 23:51:13
+a3oicn,2018-12-06 14:44:57,kroew23,"Hi idk how i got here (actually yes i do, i was looking up REAL ways to see if your phone has been tapped not that *#21# crap) but i can say ive reverse searched someones picture when i suspect they are lying about who they are 🤣 i did a very shallow background check on my current partner i met online with google and info they sent me.
+Actually can i join and hangout with you guys? Lol I dont know if i can really get too involved like going the ctf path with stuff going on, but i feel like i may can learn more than surface level than i do to protect myself and those around me",2,kk_ahiru,2024-02-22 22:39:03
+a3oicn,2018-12-06 14:44:57,el6tzr2,What course are you taking ?,6,,2019-04-18 14:47:45
+a3oicn,2018-12-06 14:44:57,ivgifno,Still hasn't replied,1,Bloxrak,2022-11-07 20:19:34
+a3oicn,2018-12-06 14:44:57,krtq7n2,Oh heck yeah you can join us. All you need is a desire to learn. And there's not really a commitment or anything.,1,,2024-02-23 21:20:03
+a3oicn,2018-12-06 14:44:57,hyril9y,"Sounds like something similar to what I'm doing, I'm doing HackerX. It's been interesting and a good intro, but the second I have an issue with something not working, I'm fucked. Reading this thread, I'm getting of Kali asap.",2,chrisflaps69,2022-02-28 10:49:59
+a3oicn,2018-12-06 14:44:57,jxq1h2i,late to the party but same here. cant do anything without going down 4 different rabbit holes just to not fix my issue. onwards and upwards ig,1,sneakysquid102,2023-08-25 17:50:18
