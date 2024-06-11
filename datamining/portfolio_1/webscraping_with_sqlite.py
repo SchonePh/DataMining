@@ -14,10 +14,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 def create_database(db_name):
+    if os.path.exists(db_name):
+        os.remove(db_name)
     conn = sqlite3.connect(db_name)
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS reviews
-                 (source TEXT, date TEXT, title TEXT, text TEXT, rating INTEGER, product TEXT)''')
+                 (source TEXT, date TEXT, title TEXT, text TEXT, rating TEXT, product TEXT)''')
     conn.commit()
     conn.close()
 
@@ -28,6 +30,15 @@ def read_database(db_name):
     df = pd.read_sql_query(query, conn)
     conn.close()
     return df
+
+
+def insert_review(db_name, source, date, title, text, rating, product):
+    conn = sqlite3.connect(db_name)
+    c = conn.cursor()
+    c.execute("INSERT INTO reviews (source, date, title, text, rating, product) VALUES (?, ?, ?, ?, ?, ?)",
+              (source, date, title, text, rating, product))
+    conn.commit()
+    conn.close()
 
 
 def flatten_list(nested_list):
@@ -57,7 +68,7 @@ def get_right_div_names(driver):
     reviews_child_child_divs = flatten_list(reviews_child_child_divs)
 
     filtered_elements = [
-        child for child in reviews_child_child_divs if 'ratings-list' in child.get_attribute('class')]
+        child for child in reviews_child_child_divs if 'ratings-list svelte' in child.get_attribute('class')]
 
     # Debugging-Ausgabe der Klassen der untergeordneten divs und ul
     return filtered_elements
@@ -65,49 +76,112 @@ def get_right_div_names(driver):
 
 def accept_cookies(driver):
     # Wait for the cookie consent popup to appear and accept cookies
-    wait = WebDriverWait(driver, 10)
-    accept_cookies_button = wait.until(
-        EC.element_to_be_clickable(
-            (By.XPATH, '//button[contains(text(), "Akzeptieren")]')
+    try:
+        wait = WebDriverWait(driver, 10)
+        accept_cookies_button = wait.until(
+            EC.element_to_be_clickable(
+                (By.XPATH, '//button[contains(text(), "Akzeptieren")]')
+            )
         )
-    )
-    time.sleep(random.randint(18, 65) / 17)
-    accept_cookies_button.click()
+        time.sleep(random.randint(18, 65) / 17)
+        accept_cookies_button.click()
+    except Exception as e:
+        print("No cookie consent button found or clickable")
 
 
-def scrape_reviews(html_file, max_reviews):
+def scrape_reviews(url, max_reviews, db_name):
     # Setup Selenium WebDriver (using Chrome in this example)
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    # Uncomment the next line to disable headless mode for debugging
+    # options.add_argument("--headless")
+    driver = webdriver.Chrome(options=options)
 
     try:
         # Navigate to the PLP page
-        driver.get(f"file:///{os.path.abspath(html_file)}")
+        driver.get(url)
 
         accept_cookies(driver)
 
-        time.sleep(1)
+        time.sleep(2)  # Increased wait time to ensure page loads
 
-        div_names = get_right_div_names(driver)
+        # Scroll to the bottom of the page
+        driver.execute_script(
+            "window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)  # Wait for content to load
 
-        for div in div_names:
-            if not 'list-gh-only-wrapper' in div.get_attribute('class'):
-                ratings_div_name = div.get_attribute('class')
+        total_reviews_extracted = 0
+        ratings_div_name = get_right_div_names(driver)
 
-        soup = BeautifulSoup(driver.page_source, "html.parser")
+        while total_reviews_extracted < max_reviews:
 
-        # Find the div with id="svelte-ratings"
-        reviews_div = soup.find("div", id="svelte-ratings")
+            soup = BeautifulSoup(driver.page_source, "html.parser")
 
-        ratings_div = reviews_div.find(
-            "div", class_=ratings_div_name)
-        if (ratings_div == None):
-            ratings_div = reviews_div.find(
-                "ul", class_=ratings_div_name)
+            # Find the div with id="svelte-ratings"
+            reviews_div = soup.find("div", id="svelte-ratings")
 
-        print(ratings_div)
+            # Find all ul elements with the class name stored in ratings_div_name
+            ul_elements = reviews_div.find_all(
+                "ul", class_=ratings_div_name[0].get_attribute('class'))
 
-        # Rückgabe der gefundenen untergeordneten divs und ul
-        # return reviews_child_child_divs
+            # Check if there are at least two ul elements
+            if len(ul_elements) >= 2:
+                # Select the second ul element
+                second_ul = ul_elements[1]
+            else:
+                second_ul = ul_elements[0]
+
+            # Find all li elements under this ul
+            li_elements = second_ul.find_all('li')
+            for i, li in enumerate(li_elements, start=1):
+                if total_reviews_extracted >= max_reviews:
+                    break
+
+                # Extract required information from each li element
+                source = li.find('span').find(
+                    'a').text.strip() if li.find('span').find('a') else ''
+                date = li.find('time')['datetime'] if li.find(
+                    'time') else ''
+                title = li.find('div', class_='ratings-title').find(
+                    'strong').text.strip() if li.find('div', class_='ratings-title') else ''
+                text = li.find('div', class_='ratings-text').text.strip(
+                ) if li.find('div', class_='ratings-text') else ''
+                rating = li.find('span', class_='stars-rating-label').text.strip(
+                ) if li.find('span', class_='stars-rating-label') else ''
+                product = li.find('span', class_='rating-for').find(
+                    'a').text.strip() if li.find('span', class_='rating-for') else ''
+
+                if source == '':
+                    source = 'geizhals.de'
+
+                # Print extracted information
+                print(f"Review {total_reviews_extracted + 1}:")
+                print(f"Quelle der Bewertung: {source}")
+                print(f"Datum der Bewertung: {date}")
+                print(f"Bewertungstitel: {title}")
+                print(f"Bewertungstext: {text}")
+                print(f"Sternebewertung: {rating}")
+                print(f"Für welches Produkt: {product}")
+                print()
+
+                # Insert data into the database
+                insert_review(db_name, source, date,
+                              title, text, rating, product)
+                total_reviews_extracted += 1
+
+            # Check if there is a next page button and click it
+            try:
+                next_button = driver.find_element(
+                    By.CSS_SELECTOR, 'a.pagination__page--next')
+                next_button.click()
+                # Increased wait time to ensure the next page loads
+                time.sleep(5)
+                # Scroll to the bottom of the next page
+                driver.execute_script(
+                    "window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)  # Wait for content to load
+            except:
+                print("No more pages or next button not found.")
+                break
 
     finally:
         driver.quit()
@@ -122,14 +196,10 @@ if __name__ == "__main__":
 
     create_database(path_to_db)
 
-    print(read_database(path_to_db))
-
-    html_file = "datamining/portfolio_1/test_data.html"
+    # Direct URL to the product page
+    url = "https://geizhals.de/lg-oled-g39la-v127135.html"
     max_reviews = 50
-    product_name = 'Produktname'  # Ersetze durch den tatsächlichen Produktnamen
-    child_divs = scrape_reviews(html_file, max_reviews)
+    scrape_reviews(url, max_reviews, path_to_db)
 
-    # Optionally, do something with the child_divs
-    # if child_divs:
-    #     for i, div in enumerate(child_divs, start=1):
-    #         print(f"Child div {i}: {div.get_attribute('outerHTML')}")
+    # Optionally, do something with the filtered elements
+    print(read_database(path_to_db))
