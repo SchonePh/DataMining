@@ -249,7 +249,8 @@ if __name__ == "__main__":
 
     create_database(path_to_db)
 
-    url = "https://geizhals.de/apple-macbook-air-m2-v103674.html"
+    # https://geizhals.de/lg-oled-g39la-v127135.html
+    url = "https://geizhals.de/lg-oled-g39la-v127135.html"
     max_reviews = 50
     scrape_reviews(url, max_reviews, path_to_db)
 
